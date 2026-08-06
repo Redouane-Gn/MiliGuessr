@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MiliGuessr — Éditeur</title>
+<link rel="stylesheet" href="style/style.css">
+<link rel="stylesheet" href="style/editor.css">
+</head>
+<body>
+  <div class="editor-wrap">
+    <header class="editor-header">
+      <h1>🛠️ Éditeur de véhicules</h1>
+      <p>Ajoute, modifie ou supprime des véhicules et leurs images, directement dans le projet.</p>
+      <a href="index.html" class="editor-link">← Retour au test</a>
+    </header>
+
+    <p id="editor-feedback" class="feedback hidden"></p>
+
+    <div id="connect-panel" class="connect-panel">
+      <button id="btn-connect" class="btn-primary" style="width:auto; padding:0 1.5rem;">📁 Connecter le dossier IDENTIF</button>
+      <p class="connect-status">Ouvre cette page via <code>http://localhost:8000/editor.html</code> (pas en double-cliquant sur le fichier), avec Chrome ou Edge. Choisis ensuite le dossier <strong>IDENTIF</strong> (celui qui contient <code>index.html</code>, <code>scripts/</code> et <code>img/</code>).</p>
+    </div>
+
+    <div id="editor-body" class="hidden">
+      <section class="editor-section">
+        <h2>Répartition par catégorie</h2>
+        <div id="category-count-bars" class="bar-chart"></div>
+      </section>
+
+      <section class="editor-section">
+        <h2>Répartition par pays</h2>
+        <div id="country-count-bars" class="bar-chart"></div>
+      </section>
+
+      <section class="editor-section">
+        <h2>Véhicules</h2>
+
+        <div class="filter-row">
+          <input type="text" id="filter-search" placeholder="Rechercher un nom…">
+          <select id="filter-category">
+            <option value="">Toutes les catégories</option>
+          </select>
+          <select id="filter-country">
+            <option value="">Tous les pays</option>
+          </select>
+          <button id="btn-add-new" class="btn-primary" style="width:auto; padding:0 1.25rem;">+ Ajouter un véhicule</button>
+        </div>
+
+        <form id="vehicle-form" class="vehicle-form hidden">
+          <h3 id="form-title" style="margin-top:0;">Ajouter un véhicule</h3>
+          <div class="form-grid">
+            <div class="form-field form-field--full">
+              <label for="field-name">Nom</label>
+              <input type="text" id="field-name" required>
+            </div>
+            <div class="form-field">
+              <label for="field-id">Identifiant (slug)</label>
+              <input type="text" id="field-id" required>
+            </div>
+            <div class="form-field">
+              <label>&nbsp;</label>
+              <button type="button" id="btn-generate-id" class="btn-secondary" style="width:auto; min-height:42px; padding:0 0.9rem;">Générer depuis le nom</button>
+            </div>
+            <div class="form-field">
+              <label for="field-category">Catégorie</label>
+              <select id="field-category"></select>
+            </div>
+            <div class="form-field">
+              <label for="field-country">Pays</label>
+              <select id="field-country"></select>
+            </div>
+            <div class="form-field form-field--full">
+              <label for="field-aliases">Alias (séparés par des virgules, optionnel)</label>
+              <input type="text" id="field-aliases" placeholder="ex : m4, m4a1">
+            </div>
+            <div class="form-field form-field--full">
+              <label>Photos existantes</label>
+              <div id="existing-image-gallery" class="image-gallery"></div>
+            </div>
+            <div class="form-field form-field--full">
+              <label for="field-image">Ajouter des photos (plusieurs possibles)</label>
+              <input type="file" id="field-image" accept="image/*" multiple>
+              <div id="new-image-previews" class="image-gallery"></div>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="button" id="btn-cancel-form" class="btn-secondary hidden">Annuler</button>
+            <button type="submit" id="btn-submit-form" class="btn-primary">Ajouter le véhicule</button>
+          </div>
+        </form>
+
+        <div id="vehicle-list" class="vehicle-list"></div>
+        <p id="empty-state" class="empty-state hidden">Aucun véhicule ne correspond à ces filtres.</p>
+      </section>
+    </div>
+  </div>
+
+  <script src="scripts/utils.js"></script>
+  <script src="scripts/editor.js"></script>
+</body>
+</html>

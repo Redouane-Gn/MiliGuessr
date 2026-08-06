@@ -1,0 +1,41 @@
+name: Déploiement GitHub Pages
+
+# Publie le site sur GitHub Pages à chaque push sur main, SANS l'éditeur
+# (editor.html, scripts/editor.js, style/editor.css et le lien qui y mène) :
+# l'éditeur reste un outil local, utilisé avant de pousser les mises à jour.
+#
+# Déploiement via push sur la branche gh-pages (méthode "classique"), plus
+# simple et plus fiable que l'API Pages basée sur les environnements.
+# Réglage requis une seule fois : Settings → Pages → Source: Deploy from a
+# branch → gh-pages / (root).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Construire le site public (sans l'éditeur)
+        run: |
+          mkdir -p dist
+          rsync -a --exclude='.git' --exclude='.github' --exclude='dist' ./ dist/
+          rm -f dist/editor.html dist/scripts/editor.js dist/style/editor.css
+          sed -i '\|<a href="editor.html"|d' dist/index.html
+
+      - name: Déployer sur la branche gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
