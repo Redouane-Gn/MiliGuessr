@@ -13,7 +13,8 @@
     ],
     "aliases": [
       "ah64",
-      "apache"
+      "apache",
+      "AH-64"
     ]
   },
   {
@@ -209,6 +210,9 @@
       "img/genie/bat-2-3.jpg",
       "img/genie/bat-2-4.jpg",
       "img/genie/bat-2-5.jpg"
+    ],
+    "aliases": [
+      "BAT2"
     ]
   },
   {
@@ -222,6 +226,1280 @@
       "img/vbci/bmd-1-3.jpg",
       "img/vbci/bmd-1-4.jpg",
       "img/vbci/bmd-1-5.jpg"
+    ],
+    "aliases": [
+      "BMD1"
+    ]
+  },
+  {
+    "id": "bmd-2",
+    "name": "BMD-2",
+    "category": "vbci",
+    "country": "russie",
+    "images": [
+      "img/vbci/bmd-2.jpg",
+      "img/vbci/bmd-2-2.jpg",
+      "img/vbci/bmd-2-3.jpg",
+      "img/vbci/bmd-2-4.jpg",
+      "img/vbci/bmd-2-5.jpg"
+    ],
+    "aliases": [
+      "BMD2"
+    ]
+  },
+  {
+    "id": "bmd-3",
+    "name": "BMD-3",
+    "category": "vbci",
+    "country": "russie",
+    "images": [
+      "img/vbci/bmd-3.jpg",
+      "img/vbci/bmd-3-2.jpg",
+      "img/vbci/bmd-3-3.jpg",
+      "img/vbci/bmd-3-4.jpg",
+      "img/vbci/bmd-3-5.jpg"
+    ],
+    "aliases": [
+      "BMD3"
+    ]
+  },
+  {
+    "id": "bmd-4",
+    "name": "BMD-4",
+    "category": "vbci",
+    "country": "russie",
+    "images": [
+      "img/vbci/bmd-4.jpg",
+      "img/vbci/bmd-4-2.jpg",
+      "img/vbci/bmd-4-3.jpg",
+      "img/vbci/bmd-4-4.jpg",
+      "img/vbci/bmd-4-5.jpg"
+    ],
+    "aliases": [
+      "BMD4"
+    ]
+  },
+  {
+    "id": "bmp-1",
+    "name": "BMP-1",
+    "category": "vbci",
+    "country": "russie",
+    "images": [
+      "img/vbci/bmp-1.jpg",
+      "img/vbci/bmp-1-2.jpg",
+      "img/vbci/bmp-1-3.jpg",
+      "img/vbci/bmp-1-4.jpg",
+      "img/vbci/bmp-1-5.jpg"
+    ],
+    "aliases": [
+      "BMP1"
+    ]
+  },
+  {
+    "id": "bmp-2",
+    "name": "BMP-2",
+    "category": "vbci",
+    "country": "russie",
+    "images": [
+      "img/vbci/bmp-2.jpg",
+      "img/vbci/bmp-2-2.jpg",
+      "img/vbci/bmp-2-3.jpg",
+      "img/vbci/bmp-2-4.jpg",
+      "img/vbci/bmp-2-5.jpg"
+    ],
+    "aliases": [
+      "BMP2"
+    ]
+  },
+  {
+    "id": "bmp-3",
+    "name": "BMP-3",
+    "category": "vbci",
+    "country": "russie",
+    "images": [
+      "img/vbci/bmp-3.jpg",
+      "img/vbci/bmp-3-2.jpg",
+      "img/vbci/bmp-3-3.jpg",
+      "img/vbci/bmp-3-4.jpg",
+      "img/vbci/bmp-3-5.jpg"
+    ],
+    "aliases": [
+      "BMP3"
+    ]
+  },
+  {
+    "id": "bmr-600",
+    "name": "BMR-600",
+    "category": "vbtt",
+    "country": "espagne",
+    "images": [
+      "img/vbtt/bmr-600.jpg",
+      "img/vbtt/bmr-600-2.jpg",
+      "img/vbtt/bmr-600-3.jpg",
+      "img/vbtt/bmr-600-4.jpg",
+      "img/vbtt/bmr-600-5.jpg"
+    ],
+    "aliases": [
+      "BMR600"
+    ]
+  },
+  {
+    "id": "bradley",
+    "name": "BRADLEY",
+    "category": "vbci",
+    "country": "usa",
+    "images": [
+      "img/vbci/bradley.jpg",
+      "img/vbci/bradley-2.jpg",
+      "img/vbci/bradley-3.jpg",
+      "img/vbci/bradley-4.jpg",
+      "img/vbci/bradley-5.jpg"
+    ]
+  },
+  {
+    "id": "brdm-2",
+    "name": "BRDM-2",
+    "category": "reco",
+    "country": "russie",
+    "images": [
+      "img/reco/brdm-2.jpg",
+      "img/reco/brdm-2-2.jpg",
+      "img/reco/brdm-2-3.jpg",
+      "img/reco/brdm-2-4.jpg",
+      "img/reco/brdm-2-5.jpg"
+    ],
+    "aliases": [
+      "BRDM2"
+    ]
+  },
+  {
+    "id": "brdm-2-at5",
+    "name": "BRDM-2 AT5",
+    "category": "reco",
+    "country": "russie",
+    "images": [
+      "img/reco/brdm-2-at5.jpg",
+      "img/reco/brdm-2-at5-2.jpg",
+      "img/reco/brdm-2-at5-3.jpg",
+      "img/reco/brdm-2-at5-4.jpg",
+      "img/reco/brdm-2-at5-5.jpg"
+    ],
+    "aliases": [
+      "BRDM-2",
+      "BRDM2",
+      "AT5"
+    ]
+  },
+  {
+    "id": "brdm-2-rkh",
+    "name": "BRDM-2 RKH",
+    "category": "reco",
+    "country": "russie",
+    "images": [
+      "img/reco/brdm-2-rkh.jpg",
+      "img/reco/brdm-2-rkh-2.jpg",
+      "img/reco/brdm-2-rkh-3.png",
+      "img/reco/brdm-2-rkh-4.jpg",
+      "img/reco/brdm-2-rkh-5.png"
+    ],
+    "aliases": [
+      "BRDM-2",
+      "BRDM2",
+      "RKH"
+    ]
+  },
+  {
+    "id": "brm-1",
+    "name": "BRM-1",
+    "category": "reco",
+    "country": "russie",
+    "images": [
+      "img/reco/brm-1.jpg",
+      "img/reco/brm-1-2.jpg",
+      "img/reco/brm-1-3.jpg",
+      "img/reco/brm-1-4.jpg",
+      "img/reco/brm-1-5.jpg"
+    ],
+    "aliases": [
+      "BRM1"
+    ]
+  },
+  {
+    "id": "brm-3",
+    "name": "BRM-3",
+    "category": "reco",
+    "country": "russie",
+    "images": [
+      "img/reco/brm-3.jpg",
+      "img/reco/brm-3-2.jpg",
+      "img/reco/brm-3-3.jpg",
+      "img/reco/brm-3-4.jpg",
+      "img/reco/brm-3-5.jpg"
+    ],
+    "aliases": [
+      "BRM3"
+    ]
+  },
+  {
+    "id": "btr-60",
+    "name": "BTR-60",
+    "category": "vbtt",
+    "country": "russie",
+    "images": [
+      "img/vbtt/btr-60.jpg",
+      "img/vbtt/btr-60-2.jpg",
+      "img/vbtt/btr-60-3.jpg",
+      "img/vbtt/btr-60-4.jpg",
+      "img/vbtt/btr-60-5.jpg"
+    ],
+    "aliases": [
+      "BTR60"
+    ]
+  },
+  {
+    "id": "btr-70",
+    "name": "BTR-70",
+    "category": "vbtt",
+    "country": "russie",
+    "images": [
+      "img/vbtt/btr-70.jpg",
+      "img/vbtt/btr-70-2.jpg",
+      "img/vbtt/btr-70-3.jpg",
+      "img/vbtt/btr-70-4.jpg",
+      "img/vbtt/btr-70-5.jpg"
+    ],
+    "aliases": [
+      "BTR70"
+    ]
+  },
+  {
+    "id": "btr-80",
+    "name": "BTR-80",
+    "category": "vbtt",
+    "country": "russie",
+    "images": [
+      "img/vbtt/btr-80.jpg",
+      "img/vbtt/btr-80-2.jpg",
+      "img/vbtt/btr-80-3.jpg",
+      "img/vbtt/btr-80-4.jpg",
+      "img/vbtt/btr-80-5.jpg"
+    ],
+    "aliases": [
+      "BTR80"
+    ]
+  },
+  {
+    "id": "btr-80a",
+    "name": "BTR-80A",
+    "category": "vbtt",
+    "country": "russie",
+    "images": [
+      "img/vbtt/btr-80a.png",
+      "img/vbtt/btr-80a-2.jpg",
+      "img/vbtt/btr-80a-3.jpg",
+      "img/vbtt/btr-80a-4.jpg",
+      "img/vbtt/btr-80a-5.jpg"
+    ],
+    "aliases": [
+      "BTR80A"
+    ]
+  },
+  {
+    "id": "challenger-2",
+    "name": "CHALLENGER 2",
+    "category": "chars",
+    "country": "royaume-uni",
+    "images": [
+      "img/chars/challenger-2.jpg",
+      "img/chars/challenger-2-2.jpg",
+      "img/chars/challenger-2-3.jpg",
+      "img/chars/challenger-2-4.jpg",
+      "img/chars/challenger-2-5.jpg"
+    ],
+    "aliases": [
+      "CHALLENGER"
+    ]
+  },
+  {
+    "id": "chieftain",
+    "name": "CHIEFTAIN",
+    "category": "chars",
+    "country": "royaume-uni",
+    "images": [
+      "img/chars/chieftain.jpg",
+      "img/chars/chieftain-2.jpg",
+      "img/chars/chieftain-3.jpg",
+      "img/chars/chieftain-4.jpg",
+      "img/chars/chieftain-5.jpg"
+    ]
+  },
+  {
+    "id": "fuchs",
+    "name": "FUCHS",
+    "category": "vbtt",
+    "country": "allemagne",
+    "images": [
+      "img/vbtt/fuchs.jpg",
+      "img/vbtt/fuchs-2.jpg",
+      "img/vbtt/fuchs-3.jpg",
+      "img/vbtt/fuchs-4.jpg",
+      "img/vbtt/fuchs-5.jpg"
+    ]
+  },
+  {
+    "id": "warrior",
+    "name": "WARRIOR",
+    "category": "vbci",
+    "country": "royaume-uni",
+    "images": [
+      "img/vbci/warrior.jpg",
+      "img/vbci/warrior-2.jpg",
+      "img/vbci/warrior-3.jpg",
+      "img/vbci/warrior-4.jpg",
+      "img/vbci/warrior-5.jpg"
+    ]
+  },
+  {
+    "id": "gmz-3",
+    "name": "GMZ-3",
+    "category": "genie",
+    "country": "russie",
+    "images": [
+      "img/genie/gmz-3.jpg",
+      "img/genie/gmz-3-2.jpg",
+      "img/genie/gmz-3-3.jpg",
+      "img/genie/gmz-3-4.jpg",
+      "img/genie/gmz-3-5.jpg"
+    ],
+    "aliases": [
+      "GMZ3"
+    ]
+  },
+  {
+    "id": "imr-2",
+    "name": "IMR-2",
+    "category": "genie",
+    "country": "russie",
+    "images": [
+      "img/genie/imr-2.jpg",
+      "img/genie/imr-2-2.jpg",
+      "img/genie/imr-2-3.jpg",
+      "img/genie/imr-2-4.jpg",
+      "img/genie/imr-2-5.jpg"
+    ],
+    "aliases": [
+      "IMR2"
+    ]
+  },
+  {
+    "id": "ka-50",
+    "name": "KA-50",
+    "category": "helicopteres",
+    "country": "russie",
+    "images": [
+      "img/helicopteres/ka-50.jpg",
+      "img/helicopteres/ka-50-2.jpg",
+      "img/helicopteres/ka-50-3.jpg",
+      "img/helicopteres/ka-50-4.jpg",
+      "img/helicopteres/ka-50-5.jpg"
+    ],
+    "aliases": [
+      "KA50"
+    ]
+  },
+  {
+    "id": "leopard-1",
+    "name": "LEOPARD 1",
+    "category": "chars",
+    "country": "allemagne",
+    "images": [
+      "img/chars/leopard-1.jpg",
+      "img/chars/leopard-1-2.jpg",
+      "img/chars/leopard-1-3.jpg",
+      "img/chars/leopard-1-4.jpg",
+      "img/chars/leopard-1-5.jpg"
+    ],
+    "aliases": [
+      "LEOPARD"
+    ]
+  },
+  {
+    "id": "leopard-2-a5-6",
+    "name": "LEOPARD 2 A5/6",
+    "category": "chars",
+    "country": "allemagne",
+    "images": [
+      "img/chars/leopard-2-a5-6.jpg",
+      "img/chars/leopard-2-a5-6-2.jpg",
+      "img/chars/leopard-2-a5-6-3.jpg",
+      "img/chars/leopard-2-a5-6-4.jpg",
+      "img/chars/leopard-2-a5-6-5.jpg"
+    ],
+    "aliases": [
+      "LEOPARD",
+      "A5/6"
+    ]
+  },
+  {
+    "id": "m1-abrams",
+    "name": "M1 ABRAMS",
+    "category": "chars",
+    "country": "usa",
+    "images": [
+      "img/chars/m1-abrams.jpeg",
+      "img/chars/m1-abrams-2.jpeg",
+      "img/chars/m1-abrams-3.jpg",
+      "img/chars/m1-abrams-4.jpg",
+      "img/chars/m1-abrams-5.jpg"
+    ],
+    "aliases": [
+      "M1",
+      "ABRAMS"
+    ]
+  },
+  {
+    "id": "m60",
+    "name": "M60",
+    "category": "chars",
+    "country": "usa",
+    "images": [
+      "img/chars/m60.jpg",
+      "img/chars/m60-2.jpg",
+      "img/chars/m60-3.jpg",
+      "img/chars/m60-4.jpg",
+      "img/chars/m60-5.jpg"
+    ]
+  },
+  {
+    "id": "m113",
+    "name": "M113",
+    "category": "vbtt",
+    "country": "usa",
+    "images": [
+      "img/vbtt/m113.jpg",
+      "img/vbtt/m113-2.jpg",
+      "img/vbtt/m113-3.jpg",
+      "img/vbtt/m113-4.jpg",
+      "img/vbtt/m113-5.jpg"
+    ]
+  },
+  {
+    "id": "marder",
+    "name": "MARDER",
+    "category": "vbci",
+    "country": "allemagne",
+    "images": [
+      "img/vbci/marder.jpg",
+      "img/vbci/marder-2.jpg",
+      "img/vbci/marder-3.jpg",
+      "img/vbci/marder-4.jpg",
+      "img/vbci/marder-5.jpg"
+    ]
+  },
+  {
+    "id": "mdk-2",
+    "name": "MDK-2",
+    "category": "genie",
+    "country": "russie",
+    "images": [
+      "img/genie/mdk-2.jpg",
+      "img/genie/mdk-2-2.jpg",
+      "img/genie/mdk-2-3.jpg",
+      "img/genie/mdk-2-4.jpg",
+      "img/genie/mdk-2-5.jpg"
+    ],
+    "aliases": [
+      "MDK2"
+    ]
+  },
+  {
+    "id": "merkava-3",
+    "name": "MERKAVA 3",
+    "category": "chars",
+    "country": "israel",
+    "images": [
+      "img/chars/merkava-3.jpg",
+      "img/chars/merkava-3-2.jpg",
+      "img/chars/merkava-3-3.jpg",
+      "img/chars/merkava-3-4.jpg",
+      "img/chars/merkava-3-5.jpg"
+    ],
+    "aliases": [
+      "MERKAVA"
+    ]
+  },
+  {
+    "id": "merkava-4",
+    "name": "MERKAVA 4",
+    "category": "chars",
+    "country": "israel",
+    "images": [
+      "img/chars/merkava-4.jpg",
+      "img/chars/merkava-4-2.jpg",
+      "img/chars/merkava-4-3.jpg",
+      "img/chars/merkava-4-4.jpg",
+      "img/chars/merkava-4-5.jpg"
+    ],
+    "aliases": [
+      "MERKAVA"
+    ]
+  },
+  {
+    "id": "mi-24-hind",
+    "name": "MI-24 HIND",
+    "category": "helicopteres",
+    "country": "russie",
+    "images": [
+      "img/helicopteres/mi-24-hind.jpg",
+      "img/helicopteres/mi-24-hind-2.jpg",
+      "img/helicopteres/mi-24-hind-3.jpg",
+      "img/helicopteres/mi-24-hind-4.jpg",
+      "img/helicopteres/mi-24-hind-5.jpg"
+    ],
+    "aliases": [
+      "MI24",
+      "HIND",
+      "MI-24"
+    ]
+  },
+  {
+    "id": "mi-28-havoc",
+    "name": "MI-28 HAVOC",
+    "category": "helicopteres",
+    "country": "russie",
+    "images": [
+      "img/helicopteres/mi-28-havoc.jpg",
+      "img/helicopteres/mi-28-havoc-2.jpg",
+      "img/helicopteres/mi-28-havoc-3.jpg",
+      "img/helicopteres/mi-28-havoc-4.jpg",
+      "img/helicopteres/mi-28-havoc-5.jpg"
+    ],
+    "aliases": [
+      "MI28",
+      "HAVOC",
+      "MI-28"
+    ]
+  },
+  {
+    "id": "mtlb",
+    "name": "MTLB",
+    "category": "vbtt",
+    "country": "russie",
+    "images": [
+      "img/vbtt/mtlb.jpg",
+      "img/vbtt/mtlb-2.jpg",
+      "img/vbtt/mtlb-3.jpg",
+      "img/vbtt/mtlb-4.jpg",
+      "img/vbtt/mtlb-5.jpg"
+    ]
+  },
+  {
+    "id": "mtu-72",
+    "name": "MTU-72",
+    "category": "genie",
+    "country": "russie",
+    "images": [
+      "img/genie/mtu-72.jpg",
+      "img/genie/mtu-72-2.jpg",
+      "img/genie/mtu-72-3.jpg",
+      "img/genie/mtu-72-4.jpg",
+      "img/genie/mtu-72-5.jpg"
+    ],
+    "aliases": [
+      "MTU72"
+    ]
+  },
+  {
+    "id": "patria-xa180",
+    "name": "PATRIA XA180",
+    "category": "vbtt",
+    "country": "autres",
+    "images": [
+      "img/vbtt/patria-xa180.png",
+      "img/vbtt/patria-xa180-2.jpg",
+      "img/vbtt/patria-xa180-3.jpg",
+      "img/vbtt/patria-xa180-4.jpg",
+      "img/vbtt/patria-xa180-5.jpg"
+    ],
+    "aliases": [
+      "PATRIA",
+      "XA180"
+    ]
+  },
+  {
+    "id": "piranha-3",
+    "name": "PIRANHA 3",
+    "category": "vbci",
+    "country": "autres",
+    "images": [
+      "img/vbci/piranha-3.jpg",
+      "img/vbci/piranha-3-2.jpg",
+      "img/vbci/piranha-3-3.jpg",
+      "img/vbci/piranha-3-4.jpg",
+      "img/vbci/piranha-3-5.jpg"
+    ],
+    "aliases": [
+      "PIRANHA"
+    ]
+  },
+  {
+    "id": "plz-07",
+    "name": "PLZ-07",
+    "category": "artillerie",
+    "country": "chine",
+    "images": [
+      "img/artillerie/plz-07.jpg",
+      "img/artillerie/plz-07-2.jpg",
+      "img/artillerie/plz-07-3.jpg",
+      "img/artillerie/plz-07-4.png",
+      "img/artillerie/plz-07-5.jpg"
+    ],
+    "aliases": [
+      "PLZ07"
+    ]
+  },
+  {
+    "id": "pt-91",
+    "name": "PT-91",
+    "category": "chars",
+    "country": "autres",
+    "images": [
+      "img/chars/pt-91.png",
+      "img/chars/pt-91-2.png",
+      "img/chars/pt-91-3.jpg",
+      "img/chars/pt-91-4.jpg",
+      "img/chars/pt-91-5.jpg"
+    ],
+    "aliases": [
+      "PT91"
+    ]
+  },
+  {
+    "id": "pts-02",
+    "name": "PTS-02",
+    "category": "genie",
+    "country": "russie",
+    "images": [
+      "img/genie/pts-02.jpg",
+      "img/genie/pts-02-2.jpg",
+      "img/genie/pts-02-3.jpg",
+      "img/genie/pts-02-4.jpg",
+      "img/genie/pts-02-5.jpg"
+    ],
+    "aliases": [
+      "PTS02"
+    ]
+  },
+  {
+    "id": "puma",
+    "name": "PUMA",
+    "category": "vbci",
+    "country": "allemagne",
+    "images": [
+      "img/vbci/puma.jpg",
+      "img/vbci/puma-2.png",
+      "img/vbci/puma-3.png",
+      "img/vbci/puma-4.jpg",
+      "img/vbci/puma-5.jpg"
+    ]
+  },
+  {
+    "id": "pzm",
+    "name": "PZM-2",
+    "category": "genie",
+    "country": "russie",
+    "images": [
+      "img/genie/pzm.jpg",
+      "img/genie/pzm-2.jpg",
+      "img/genie/pzm-3.jpg",
+      "img/genie/pzm-4.jpg",
+      "img/genie/pzm-5.jpg"
+    ],
+    "aliases": [
+      "PZM2"
+    ]
+  },
+  {
+    "id": "scimitar",
+    "name": "SCIMITAR",
+    "category": "reco",
+    "country": "royaume-uni",
+    "images": [
+      "img/reco/scimitar.jpg",
+      "img/reco/scimitar-2.jpg",
+      "img/reco/scimitar-3.jpg",
+      "img/reco/scimitar-4.jpg",
+      "img/reco/scimitar-5.jpg"
+    ]
+  },
+  {
+    "id": "stryker",
+    "name": "STRYKER",
+    "category": "vbtt",
+    "country": "usa",
+    "images": [
+      "img/vbtt/stryker.jpg",
+      "img/vbtt/stryker-2.jpg",
+      "img/vbtt/stryker-3.jpg",
+      "img/vbtt/stryker-4.jpg",
+      "img/vbtt/stryker-5.jpg"
+    ]
+  },
+  {
+    "id": "t-55",
+    "name": "T-55",
+    "category": "chars",
+    "country": "russie",
+    "images": [
+      "img/chars/t-55.jpg",
+      "img/chars/t-55-2.jpeg",
+      "img/chars/t-55-3.jpg",
+      "img/chars/t-55-4.jpg",
+      "img/chars/t-55-5.jpg"
+    ],
+    "aliases": [
+      "T55"
+    ]
+  },
+  {
+    "id": "t-62",
+    "name": "T-62",
+    "category": "chars",
+    "country": "russie",
+    "images": [
+      "img/chars/t-62.jpg",
+      "img/chars/t-62-2.jpg",
+      "img/chars/t-62-3.jpg",
+      "img/chars/t-62-4.jpg",
+      "img/chars/t-62-5.jpg"
+    ],
+    "aliases": [
+      "T62"
+    ]
+  },
+  {
+    "id": "t-64",
+    "name": "T-64",
+    "category": "chars",
+    "country": "russie",
+    "images": [
+      "img/chars/t-64.jpg",
+      "img/chars/t-64-2.jpg",
+      "img/chars/t-64-3.jpg",
+      "img/chars/t-64-4.jpg",
+      "img/chars/t-64-5.jpg"
+    ],
+    "aliases": [
+      "T64"
+    ]
+  },
+  {
+    "id": "t-72",
+    "name": "T-72",
+    "category": "chars",
+    "country": "russie",
+    "images": [
+      "img/chars/t-72.jpg",
+      "img/chars/t-72-2.jpg",
+      "img/chars/t-72-3.jpg",
+      "img/chars/t-72-4.jpg",
+      "img/chars/t-72-5.jpg"
+    ],
+    "aliases": [
+      "T72"
+    ]
+  },
+  {
+    "id": "t-80",
+    "name": "T-80",
+    "category": "chars",
+    "country": "russie",
+    "images": [
+      "img/chars/t-80.jpg",
+      "img/chars/t-80-2.jpg",
+      "img/chars/t-80-3.jpg",
+      "img/chars/t-80-4.jpg",
+      "img/chars/t-80-5.jpg"
+    ],
+    "aliases": [
+      "T80"
+    ]
+  },
+  {
+    "id": "t-90",
+    "name": "T-90",
+    "category": "chars",
+    "country": "russie",
+    "images": [
+      "img/chars/t-90.jpg",
+      "img/chars/t-90-2.jpg",
+      "img/chars/t-90-3.jpg",
+      "img/chars/t-90-4.jpg",
+      "img/chars/t-90-5.jpg"
+    ],
+    "aliases": [
+      "T90"
+    ]
+  },
+  {
+    "id": "t-14",
+    "name": "T-14",
+    "category": "chars",
+    "country": "russie",
+    "images": [
+      "img/chars/t-14.jpg",
+      "img/chars/t-14-2.jpg",
+      "img/chars/t-14-3.jpg",
+      "img/chars/t-14-4.png",
+      "img/chars/t-14-5.jpg"
+    ],
+    "aliases": [
+      "T14"
+    ]
+  },
+  {
+    "id": "t-72-b3",
+    "name": "T-72 B3",
+    "category": "chars",
+    "country": "russie",
+    "images": [
+      "img/chars/t-72-b3.jpg",
+      "img/chars/t-72-b3-2.jpg",
+      "img/chars/t-72-b3-3.jpg",
+      "img/chars/t-72-b3-4.jpg",
+      "img/chars/t-72-b3-5.jpg"
+    ],
+    "aliases": [
+      "T-72",
+      "T72",
+      "B3"
+    ]
+  },
+  {
+    "id": "tmm-3",
+    "name": "TMM-3",
+    "category": "genie",
+    "country": "russie",
+    "images": [
+      "img/genie/tmm-3.jpg",
+      "img/genie/tmm-3-2.jpg",
+      "img/genie/tmm-3-3.jpg",
+      "img/genie/tmm-3-4.jpg",
+      "img/genie/tmm-3-5.jpg"
+    ],
+    "aliases": [
+      "TMM3"
+    ]
+  },
+  {
+    "id": "tmm-6",
+    "name": "TMM-6",
+    "category": "genie",
+    "country": "russie",
+    "images": [
+      "img/genie/tmm-6.jpg",
+      "img/genie/tmm-6-2.jpg",
+      "img/genie/tmm-6-3.jpg",
+      "img/genie/tmm-6-4.jpg",
+      "img/genie/tmm-6-5.jpg"
+    ],
+    "aliases": [
+      "TMM6"
+    ]
+  },
+  {
+    "id": "ztz-98",
+    "name": "ZTZ-98",
+    "category": "chars",
+    "country": "chine",
+    "images": [
+      "img/chars/ztz-98.jpg",
+      "img/chars/ztz-98-2.jpg",
+      "img/chars/ztz-98-3.png",
+      "img/chars/ztz-98-4.png"
+    ],
+    "aliases": [
+      "ZTZ98"
+    ]
+  },
+  {
+    "id": "ztz-99",
+    "name": "ZTZ-99",
+    "category": "chars",
+    "country": "chine",
+    "images": [
+      "img/chars/ztz-99.jpg",
+      "img/chars/ztz-99-2.jpg",
+      "img/chars/ztz-99-3.jpg",
+      "img/chars/ztz-99-4.jpg",
+      "img/chars/ztz-99-5.jpg"
+    ],
+    "aliases": [
+      "ZTZ99"
+    ]
+  },
+  {
+    "id": "100-t12",
+    "name": "100 T12",
+    "category": "autres",
+    "country": "russie",
+    "images": [
+      "img/autres/100-t12.jpg",
+      "img/autres/100-t12-2.jpg",
+      "img/autres/100-t12-3.jpg",
+      "img/autres/100-t12-4.jpg",
+      "img/autres/100-t12-5.jpg"
+    ],
+    "aliases": [
+      "T12"
+    ]
+  },
+  {
+    "id": "2a45",
+    "name": "2A45",
+    "category": "autres",
+    "country": "russie",
+    "images": [
+      "img/autres/2a45.jpg",
+      "img/autres/2a45-2.jpg",
+      "img/autres/2a45-3.jpg",
+      "img/autres/2a45-4.jpg",
+      "img/autres/2a45-5.png"
+    ]
+  },
+  {
+    "id": "2s25",
+    "name": "2S25",
+    "category": "artillerie",
+    "country": "russie",
+    "images": [
+      "img/artillerie/2s25.jpeg",
+      "img/artillerie/2s25-2.webp",
+      "img/artillerie/2s25-3.jpg",
+      "img/artillerie/2s25-4.jpg",
+      "img/artillerie/2s25-5.jpg"
+    ]
+  },
+  {
+    "id": "2s9",
+    "name": "2S9",
+    "category": "artillerie",
+    "country": "russie",
+    "images": [
+      "img/artillerie/2s9.jpg",
+      "img/artillerie/2s9-2.jpg",
+      "img/artillerie/2s9-3.jpg",
+      "img/artillerie/2s9-4.jpg",
+      "img/artillerie/2s9-5.jpg"
+    ]
+  },
+  {
+    "id": "aav7",
+    "name": "AAV7",
+    "category": "vbtt",
+    "country": "usa",
+    "images": [
+      "img/vbtt/aav7.jpg",
+      "img/vbtt/aav7-2.jpg",
+      "img/vbtt/aav7-3.jpg",
+      "img/vbtt/aav7-4.avif",
+      "img/vbtt/aav7-5.jpg"
+    ]
+  },
+  {
+    "id": "ah-1-cobra",
+    "name": "AH-1 COBRA",
+    "category": "helicopteres",
+    "country": "usa",
+    "images": [
+      "img/helicopteres/ah-1-cobra.jpg",
+      "img/helicopteres/ah-1-cobra-2.webp",
+      "img/helicopteres/ah-1-cobra-3.jpg",
+      "img/helicopteres/ah-1-cobra-4.jpg",
+      "img/helicopteres/ah-1-cobra-5.jpg"
+    ],
+    "aliases": [
+      "AH-1",
+      "AH1",
+      "COBRA"
+    ]
+  },
+  {
+    "id": "m3-amphibious-rig",
+    "name": "M3 AMPHIBIOUS RIG",
+    "category": "genie",
+    "country": "allemagne",
+    "images": [
+      "img/genie/m3-amphibious-rig.avif",
+      "img/genie/m3-amphibious-rig-2.webp",
+      "img/genie/m3-amphibious-rig-3.jpg",
+      "img/genie/m3-amphibious-rig-4.jpg",
+      "img/genie/m3-amphibious-rig-5.jpg"
+    ],
+    "aliases": [
+      "M3",
+      "AMPHIBIOUS",
+      "RIG"
+    ]
+  },
+  {
+    "id": "amx-10-rc",
+    "name": "AMX-10 RC",
+    "category": "reco",
+    "country": "france",
+    "images": [
+      "img/reco/amx-10-rc.jpg",
+      "img/reco/amx-10-rc-2.png",
+      "img/reco/amx-10-rc-3.webp",
+      "img/reco/amx-10-rc-4.jpg",
+      "img/reco/amx-10-rc-5.jpg"
+    ],
+    "aliases": [
+      "AMX-10",
+      "AMX10",
+      "RC"
+    ]
+  },
+  {
+    "id": "arjun",
+    "name": "ARJUN",
+    "category": "chars",
+    "country": "autres",
+    "images": [
+      "img/chars/arjun.webp",
+      "img/chars/arjun-2.webp",
+      "img/chars/arjun-3.jpg",
+      "img/chars/arjun-4.jpg",
+      "img/chars/arjun-5.jpg"
+    ]
+  },
+  {
+    "id": "as90",
+    "name": "AS90",
+    "category": "artillerie",
+    "country": "royaume-uni",
+    "images": [
+      "img/artillerie/as90.jpg",
+      "img/artillerie/as90-2.jpg",
+      "img/artillerie/as90-3.jpg",
+      "img/artillerie/as90-4.jpg",
+      "img/artillerie/as90-5.avif"
+    ]
+  },
+  {
+    "id": "k2",
+    "name": "K2",
+    "category": "chars",
+    "country": "autres",
+    "images": [
+      "img/chars/k2.webp",
+      "img/chars/k2-2.webp",
+      "img/chars/k2-3.jpg",
+      "img/chars/k2-4.jpg",
+      "img/chars/k2-5.webp"
+    ]
+  },
+  {
+    "id": "bmo-t",
+    "name": "BMO-T",
+    "category": "vbtt",
+    "country": "russie",
+    "images": [
+      "img/vbtt/bmo-t.jpg",
+      "img/vbtt/bmo-t-2.jpg",
+      "img/vbtt/bmo-t-3.jpg",
+      "img/vbtt/bmo-t-4.jpg",
+      "img/vbtt/bmo-t-5.jpg"
+    ],
+    "aliases": [
+      "BMOT"
+    ]
+  },
+  {
+    "id": "boxer",
+    "name": "BOXER",
+    "category": "vbci",
+    "country": "allemagne",
+    "images": [
+      "img/vbci/boxer.jpg",
+      "img/vbci/boxer-2.jpg",
+      "img/vbci/boxer-3.jpg",
+      "img/vbci/boxer-4.jpg",
+      "img/vbci/boxer-5.jpg"
+    ]
+  },
+  {
+    "id": "centauro",
+    "name": "CENTAURO",
+    "category": "reco",
+    "country": "italie",
+    "images": [
+      "img/reco/centauro.jpg",
+      "img/reco/centauro-2.jpg",
+      "img/reco/centauro-3.webp",
+      "img/reco/centauro-4.jpg",
+      "img/reco/centauro-5.jpg"
+    ]
+  },
+  {
+    "id": "cobra",
+    "name": "COBRA",
+    "category": "reco",
+    "country": "autres",
+    "images": [
+      "img/reco/cobra.avif",
+      "img/reco/cobra-2.jpg",
+      "img/reco/cobra-3.jpg",
+      "img/reco/cobra-4.jpg",
+      "img/reco/cobra-5.jpg"
+    ]
+  },
+  {
+    "id": "cv90",
+    "name": "CV90",
+    "category": "vbci",
+    "country": "autres",
+    "images": [
+      "img/vbci/cv90.jpg",
+      "img/vbci/cv90-2.jpg",
+      "img/vbci/cv90-3.jpg",
+      "img/vbci/cv90-4.jpg",
+      "img/vbci/cv90-5.jpg"
+    ]
+  },
+  {
+    "id": "dachs",
+    "name": "DACHS",
+    "category": "genie",
+    "country": "allemagne",
+    "images": [
+      "img/genie/dachs.jpg",
+      "img/genie/dachs-2.jpg",
+      "img/genie/dachs-3.jpg",
+      "img/genie/dachs-4.jpg",
+      "img/genie/dachs-5.jpg"
+    ]
+  },
+  {
+    "id": "dardo",
+    "name": "DARDO",
+    "category": "vbci",
+    "country": "italie",
+    "images": [
+      "img/vbci/dardo.webp",
+      "img/vbci/dardo-2.webp",
+      "img/vbci/dardo-3.jpg",
+      "img/vbci/dardo-4.jpg",
+      "img/vbci/dardo-5.jpg"
+    ]
+  },
+  {
+    "id": "dragon",
+    "name": "DRAGON",
+    "category": "vbci",
+    "country": "espagne",
+    "images": [
+      "img/vbci/dragon.png",
+      "img/vbci/dragon-2.jpg",
+      "img/vbci/dragon-3.jpg",
+      "img/vbci/dragon-4.jpg",
+      "img/vbci/dragon-5.webp"
+    ]
+  },
+  {
+    "id": "eagle-iv",
+    "name": "EAGLE IV",
+    "category": "reco",
+    "country": "autres",
+    "images": [
+      "img/reco/eagle-iv.jpg",
+      "img/reco/eagle-iv-2.jpg",
+      "img/reco/eagle-iv-3.jpg",
+      "img/reco/eagle-iv-4.jpg",
+      "img/reco/eagle-iv-5.webp"
+    ],
+    "aliases": [
+      "EAGLE",
+      "IV"
+    ]
+  },
+  {
+    "id": "fennek",
+    "name": "FENNEK",
+    "category": "reco",
+    "country": "allemagne",
+    "images": [
+      "img/reco/fennek.avif",
+      "img/reco/fennek-2.avif",
+      "img/reco/fennek-3.jpg",
+      "img/reco/fennek-4.jpg",
+      "img/reco/fennek-5.avif"
+    ]
+  },
+  {
+    "id": "a129-mangusta",
+    "name": "A129 MANGUSTA",
+    "category": "helicopteres",
+    "country": "italie",
+    "images": [
+      "img/helicopteres/a129-mangusta.jpg",
+      "img/helicopteres/a129-mangusta-2.jpg",
+      "img/helicopteres/a129-mangusta-3.jpg",
+      "img/helicopteres/a129-mangusta-4.jpg",
+      "img/helicopteres/a129-mangusta-5.jpeg"
+    ],
+    "aliases": [
+      "A129",
+      "MANGUSTA"
+    ]
+  },
+  {
+    "id": "ch-47-chinook",
+    "name": "CH-47 CHINOOK",
+    "category": "helicopteres",
+    "country": "usa",
+    "images": [
+      "img/helicopteres/ch-47-chinook.jpg",
+      "img/helicopteres/ch-47-chinook-2.jpg",
+      "img/helicopteres/ch-47-chinook-3.avif",
+      "img/helicopteres/ch-47-chinook-4.webp",
+      "img/helicopteres/ch-47-chinook-5.jpg"
+    ],
+    "aliases": [
+      "CH-47",
+      "CH47",
+      "CHINOOK"
+    ]
+  },
+  {
+    "id": "tigre",
+    "name": "TIGRE",
+    "category": "helicopteres",
+    "country": "france",
+    "images": [
+      "img/helicopteres/tigre.avif",
+      "img/helicopteres/tigre-2.webp",
+      "img/helicopteres/tigre-3.jpg",
+      "img/helicopteres/tigre-4.webp",
+      "img/helicopteres/tigre-5.webp"
+    ]
+  },
+  {
+    "id": "mi-8-hip",
+    "name": "MI-8 HIP",
+    "category": "helicopteres",
+    "country": "russie",
+    "images": [
+      "img/helicopteres/mi-8-hip.jpg",
+      "img/helicopteres/mi-8-hip-2.jpg",
+      "img/helicopteres/mi-8-hip-3.jpg",
+      "img/helicopteres/mi-8-hip-4.jpg",
+      "img/helicopteres/mi-8-hip-5.jpg"
+    ],
+    "aliases": [
+      "MI-8",
+      "MI8",
+      "HIP"
     ]
   }
 ]

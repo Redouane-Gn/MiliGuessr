@@ -137,8 +137,8 @@ function renderAnswerArea() {
     const input = document.getElementById("answer-text-input");
     const submitBtn = document.querySelector("#answer-text-form button[type=submit]");
     input.disabled = false;
-    submitBtn.disabled = false;
     input.value = "";
+    submitBtn.disabled = true;
     input.focus();
   }
 }
@@ -268,19 +268,27 @@ function renderResultBars(containerId, stats, show) {
   });
 }
 
+function commentFor(accuracy) {
+  if (accuracy >= 90) return { text: "Excellent !", tier: "great" };
+  if (accuracy >= 70) return { text: "Très bien !", tier: "great" };
+  if (accuracy >= 50) return { text: "Passable", tier: "mid" };
+  if (accuracy >= 25) return { text: "Insuffisant", tier: "bad" };
+  return { text: "Raté !", tier: "bad" };
+}
+
 function endGame() {
   const correctCount = Math.round(state.score / 10);
   const accuracy = state.totalRounds > 0 ? Math.round((correctCount / state.totalRounds) * 100) : 0;
-  document.getElementById("final-score").textContent = "Score final : " + state.score;
+  document.getElementById("final-score").textContent = correctCount + " / " + state.totalRounds;
 
   const ring = document.getElementById("result-ring");
   ring.style.setProperty("--pct", accuracy);
   document.getElementById("result-percent").textContent = accuracy + "%";
 
   const badge = document.getElementById("result-badge");
-  const passed = accuracy >= 70;
-  badge.textContent = passed ? "✅ Réussi !" : "Continuez à vous entraîner";
-  badge.className = "result-badge " + (passed ? "result-badge--pass" : "result-badge--fail");
+  const comment = commentFor(accuracy);
+  badge.textContent = comment.text;
+  badge.className = "result-badge result-badge--" + comment.tier;
 
   const categoryStats = computeGroupStats("category", CATEGORIES).sort((a, b) => b.accuracy - a.accuracy);
   const countryStats = computeGroupStats("country", COUNTRIES).sort((a, b) => b.accuracy - a.accuracy);
@@ -295,7 +303,6 @@ function endGame() {
 }
 
 function updateHud() {
-  document.getElementById("hud-score").textContent = state.score;
   document.getElementById("hud-round").textContent = state.round;
   document.getElementById("hud-total-rounds").textContent = state.totalRounds;
 }
@@ -313,6 +320,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const input = document.getElementById("answer-text-input");
     if (!input.value.trim()) return;
     onAnswer(isCorrectAnswer(input.value, state.currentVehicle));
+  });
+
+  document.getElementById("answer-text-input").addEventListener("input", (event) => {
+    document.querySelector("#answer-text-form button[type=submit]").disabled = !event.target.value.trim();
   });
 
   document.getElementById("btn-next").addEventListener("click", () => {

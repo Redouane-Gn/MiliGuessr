@@ -8,83 +8,107 @@
 </head>
 <body>
   <main id="screen-menu" class="screen screen--active">
-    <h1>MiliGuessr</h1>
-    <p>Identifies le matériel militaire.</p>
+    <h1 class="wordmark">MILI<span>GUESSR</span></h1>
+    <p class="subhead">Identifies le matériel militaire.</p>
 
-    <section class="panel-group">
-      <h2>Catégories</h2>
-      <div class="panel-actions">
-        <button id="btn-check-all-cat" type="button">Tout cocher</button>
-        <button id="btn-uncheck-all-cat" type="button">Tout décocher</button>
-      </div>
-      <ul id="category-list" class="checkbox-list"></ul>
-    </section>
-
-    <section class="panel-group">
-      <h2>Pays</h2>
-      <div class="panel-actions">
-        <button id="btn-check-all-country" type="button">Tout cocher</button>
-        <button id="btn-uncheck-all-country" type="button">Tout décocher</button>
-      </div>
-      <ul id="country-list" class="checkbox-list"></ul>
-    </section>
-
-    <fieldset class="answer-mode">
-      <legend>Mode de réponse</legend>
-      <label><input type="radio" name="answer-mode" value="qcm" checked> QCM</label>
-      <label><input type="radio" name="answer-mode" value="text"> Réponse écrite</label>
-    </fieldset>
-
-    <fieldset class="answer-mode">
-      <legend>Chronomètre</legend>
-      <label><input type="radio" name="time-mode" value="timed" checked> Avec temps</label>
-      <label><input type="radio" name="time-mode" value="untimed"> Sans temps</label>
-      <div id="time-seconds-wrapper" class="inline-select">
-        <label for="time-seconds">Temps par question</label>
-        <select id="time-seconds">
-          <option value="5">5 s</option>
-          <option value="10">10 s</option>
-          <option value="15" selected>15 s</option>
-          <option value="20">20 s</option>
-          <option value="25">25 s</option>
-          <option value="30">30 s</option>
-          <option value="35">35 s</option>
-          <option value="40">40 s</option>
-          <option value="45">45 s</option>
-          <option value="50">50 s</option>
-          <option value="55">55 s</option>
-          <option value="60">60 s</option>
-        </select>
-      </div>
-    </fieldset>
-
-    <fieldset class="answer-mode">
-      <div class="inline-select">
-        <label for="vehicle-count">Nombre de véhicules</label>
-        <select id="vehicle-count">
-          <option value="10" selected>10</option>
-          <option value="20">20</option>
-          <option value="30">30</option>
-          <option value="40">40</option>
-          <option value="50">50</option>
-          <option value="60">60</option>
-          <option value="70">70</option>
-          <option value="80">80</option>
-          <option value="90">90</option>
-          <option value="100">100</option>
-        </select>
-      </div>
-    </fieldset>
-
+    <button id="btn-play" class="btn-primary">Jouer</button>
     <p id="menu-warning" class="warning-message hidden"></p>
-    <button id="btn-play" class="btn-primary">JOUER !</button>
+
+    <details id="options-panel">
+      <summary>Personnaliser la partie</summary>
+
+      <fieldset class="answer-mode">
+        <legend>Mode de sélection</legend>
+        <label><input type="radio" name="selection-mode" value="filters" checked> Catégorie / Pays</label>
+        <label><input type="radio" name="selection-mode" value="vehicles"> Véhicule par véhicule</label>
+      </fieldset>
+
+      <div id="filters-panel">
+        <section class="panel-group">
+          <h2>Catégories</h2>
+          <div class="panel-actions">
+            <button id="btn-check-all-cat" type="button">Tout cocher</button>
+            <button id="btn-uncheck-all-cat" type="button">Tout décocher</button>
+          </div>
+          <ul id="category-list" class="checkbox-list"></ul>
+        </section>
+
+        <section class="panel-group">
+          <h2>Pays</h2>
+          <div class="panel-actions">
+            <button id="btn-check-all-country" type="button">Tout cocher</button>
+            <button id="btn-uncheck-all-country" type="button">Tout décocher</button>
+          </div>
+          <ul id="country-list" class="checkbox-list"></ul>
+        </section>
+      </div>
+
+      <div id="vehicle-picker-panel" class="hidden">
+        <section class="panel-group">
+          <h2>Véhicules</h2>
+          <div class="panel-actions">
+            <button id="btn-check-all-vehicles" type="button">Tout cocher</button>
+            <button id="btn-uncheck-all-vehicles" type="button">Tout décocher</button>
+          </div>
+          <input type="text" id="vehicle-search" placeholder="Rechercher un véhicule…">
+          <div id="vehicle-picker-list"></div>
+        </section>
+      </div>
+
+      <fieldset class="answer-mode">
+        <legend>Mode de réponse</legend>
+        <label><input type="radio" name="answer-mode" value="qcm" checked> QCM</label>
+        <label><input type="radio" name="answer-mode" value="text"> Réponse écrite</label>
+      </fieldset>
+
+      <fieldset class="answer-mode">
+        <legend>Chronomètre</legend>
+        <label><input type="radio" name="time-mode" value="timed"> Avec temps</label>
+        <label><input type="radio" name="time-mode" value="untimed" checked> Sans temps</label>
+        <div id="time-seconds-wrapper" class="inline-select">
+          <label for="time-seconds">Temps par question</label>
+          <select id="time-seconds">
+            <option value="5">5 s</option>
+            <option value="10">10 s</option>
+            <option value="15" selected>15 s</option>
+            <option value="20">20 s</option>
+            <option value="25">25 s</option>
+            <option value="30">30 s</option>
+            <option value="35">35 s</option>
+            <option value="40">40 s</option>
+            <option value="45">45 s</option>
+            <option value="50">50 s</option>
+            <option value="55">55 s</option>
+            <option value="60">60 s</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <fieldset class="answer-mode">
+        <div class="inline-select">
+          <label for="vehicle-count">Nombre de véhicules</label>
+          <select id="vehicle-count">
+            <option value="10">10</option>
+            <option value="20" selected>20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+            <option value="60">60</option>
+            <option value="70">70</option>
+            <option value="80">80</option>
+            <option value="90">90</option>
+            <option value="100">100</option>
+          </select>
+        </div>
+      </fieldset>
+    </details>
+
     <a href="editor.html" class="editor-link">🛠️ Éditer les véhicules</a>
   </main>
 
   <main id="screen-game" class="screen hidden">
     <div class="hud">
-      <span class="badge badge--score">🏅 <span id="hud-score">0</span></span>
-      <span class="badge badge--round">🎯 <span id="hud-round">1</span>/<span id="hud-total-rounds">10</span></span>
+      <span class="badge badge--round"><span id="hud-round">1</span>/<span id="hud-total-rounds">10</span></span>
     </div>
     <div id="timer-bar-track"><div id="timer-bar-fill"></div></div>
 
@@ -102,11 +126,10 @@
   </main>
 
   <main id="screen-gameover" class="screen hidden">
-    <h1>Test terminé</h1>
+    <h1 class="wordmark wordmark--sm">Test terminé</h1>
     <div class="result-ring" id="result-ring">
       <div class="result-ring__inner">
         <span id="result-percent">0%</span>
-        <span class="result-ring__label">Précision</span>
       </div>
     </div>
     <p id="final-score" class="result-score"></p>
@@ -123,7 +146,7 @@
     </div>
 
     <div class="result-actions">
-      <button id="btn-menu-return" class="btn-secondary">Menu principal</button>
+      <button id="btn-menu-return" class="btn-secondary">Menu</button>
       <button id="btn-restart" class="btn-primary">Rejouer</button>
     </div>
   </main>

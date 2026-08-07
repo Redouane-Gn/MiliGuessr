@@ -7,5 +7,6 @@
   { "id": "genie", "label": "Génie" },
   { "id": "avions", "label": "Avions" },
   { "id": "helicopteres", "label": "Hélicoptères" },
-  { "id": "armement-leger", "label": "Armement léger" }
+  { "id": "armement-leger", "label": "Armement léger" },
+  { "id": "autres", "label": "Autres" }
 ]
