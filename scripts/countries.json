@@ -1,0 +1,12 @@
+[
+  { "id": "usa", "label": "États-Unis" },
+  { "id": "russie", "label": "Russie" },
+  { "id": "israel", "label": "Israël" },
+  { "id": "chine", "label": "Chine" },
+  { "id": "allemagne", "label": "Allemagne" },
+  { "id": "italie", "label": "Italie" },
+  { "id": "espagne", "label": "Espagne" },
+  { "id": "royaume-uni", "label": "Royaume-Uni" },
+  { "id": "france", "label": "France" },
+  { "id": "autres", "label": "Autres" }
+]
