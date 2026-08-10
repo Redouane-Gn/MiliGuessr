@@ -1501,5 +1501,202 @@
       "MI8",
       "HIP"
     ]
+  },
+  {
+    "id": "f-16",
+    "name": "F-16",
+    "category": "avions",
+    "country": "usa",
+    "images": [
+      "img/avions/f-16.jpg",
+      "img/avions/f-16-2.avif",
+      "img/avions/f-16-3.jpg",
+      "img/avions/f-16-4.jpg",
+      "img/avions/f-16-5.jpg"
+    ]
+  },
+  {
+    "id": "f-35",
+    "name": "F-35",
+    "category": "avions",
+    "country": "usa",
+    "images": [
+      "img/avions/f-35.jpg",
+      "img/avions/f-35-2.jpg",
+      "img/avions/f-35-3.jfif",
+      "img/avions/f-35-4.jpg",
+      "img/avions/f-35-5.webp"
+    ]
+  },
+  {
+    "id": "f-15",
+    "name": "F-15",
+    "category": "avions",
+    "country": "usa",
+    "images": [
+      "img/avions/f-15.jpg",
+      "img/avions/f-15-2.jpg",
+      "img/avions/f-15-3.jpg",
+      "img/avions/f-15-4.jpg",
+      "img/avions/f-15-5.jpg"
+    ]
+  },
+  {
+    "id": "rafale",
+    "name": "RAFALE",
+    "category": "avions",
+    "country": "france",
+    "images": [
+      "img/avions/rafale.jpg",
+      "img/avions/rafale-2.webp",
+      "img/avions/rafale-3.webp",
+      "img/avions/rafale-4.jpg",
+      "img/avions/rafale-5.jpg"
+    ]
+  },
+  {
+    "id": "typhoon",
+    "name": "TYPHOON",
+    "category": "avions",
+    "country": "allemagne",
+    "images": [
+      "img/avions/typhoon.jpg",
+      "img/avions/typhoon-2.jpg",
+      "img/avions/typhoon-3.avif",
+      "img/avions/typhoon-4.jpg",
+      "img/avions/typhoon-5.jpg"
+    ]
+  },
+  {
+    "id": "mirage-2000",
+    "name": "MIRAGE 2000",
+    "category": "avions",
+    "country": "france",
+    "images": [
+      "img/avions/mirage-2000.jpg",
+      "img/avions/mirage-2000-2.jpg",
+      "img/avions/mirage-2000-3.webp",
+      "img/avions/mirage-2000-4.jpg",
+      "img/avions/mirage-2000-5.jpg"
+    ]
+  },
+  {
+    "id": "mig-29",
+    "name": "MIG-29",
+    "category": "avions",
+    "country": "russie",
+    "images": [
+      "img/avions/mig-29.webp",
+      "img/avions/mig-29-2.jpg",
+      "img/avions/mig-29-3.webp",
+      "img/avions/mig-29-4.jpg",
+      "img/avions/mig-29-5.avif"
+    ]
+  },
+  {
+    "id": "su-27",
+    "name": "SU-27",
+    "category": "avions",
+    "country": "russie",
+    "images": [
+      "img/avions/su-27.jpg",
+      "img/avions/su-27-2.jpg",
+      "img/avions/su-27-3.jpg",
+      "img/avions/su-27-4.jpg",
+      "img/avions/su-27-5.jpg"
+    ]
+  },
+  {
+    "id": "su-35",
+    "name": "SU-35",
+    "category": "avions",
+    "country": "russie",
+    "images": [
+      "img/avions/su-35.jpg",
+      "img/avions/su-35-2.webp",
+      "img/avions/su-35-3.jpg",
+      "img/avions/su-35-4.jpeg",
+      "img/avions/su-35-5.jpg"
+    ]
+  },
+  {
+    "id": "j-10",
+    "name": "J-10",
+    "category": "avions",
+    "country": "chine",
+    "images": [
+      "img/avions/j-10.webp",
+      "img/avions/j-10-2.png",
+      "img/avions/j-10-3.webp",
+      "img/avions/j-10-4.jpg",
+      "img/avions/j-10-5.jpg"
+    ]
+  },
+  {
+    "id": "ak-47",
+    "name": "AK-47",
+    "category": "armement-leger",
+    "country": "russie",
+    "images": [
+      "img/armement-leger/ak-47.webp",
+      "img/armement-leger/ak-47-2.png",
+      "img/armement-leger/ak-47-3.jpg",
+      "img/armement-leger/ak-47-4.jpg",
+      "img/armement-leger/ak-47-5.jpg"
+    ],
+    "aliases": ["AK47"]
+  },
+  {
+    "id": "aks-47",
+    "name": "AKS-47",
+    "category": "armement-leger",
+    "country": "russie",
+    "images": [
+      "img/armement-leger/aks-47.png",
+      "img/armement-leger/aks-47-2.jpg",
+      "img/armement-leger/aks-47-3.jpg",
+      "img/armement-leger/aks-47-4.png",
+      "img/armement-leger/aks-47-5.jpg"
+    ],
+    "aliases": ["AKS47"]
+  },
+  {
+    "id": "akm",
+    "name": "AKM",
+    "category": "armement-leger",
+    "country": "russie",
+    "images": [
+      "img/armement-leger/akm.webp",
+      "img/armement-leger/akm-2.jpg",
+      "img/armement-leger/akm-3.jpg",
+      "img/armement-leger/akm-4.jpg",
+      "img/armement-leger/akm-5.png"
+    ]
+  },
+  {
+    "id": "ak-74",
+    "name": "AK-74",
+    "category": "armement-leger",
+    "country": "russie",
+    "images": [
+      "img/armement-leger/ak-74.jpeg",
+      "img/armement-leger/ak-74-2.jpg",
+      "img/armement-leger/ak-74-3.png",
+      "img/armement-leger/ak-74-4.jpg"
+    ],
+    "aliases": ["AK74"]
+  },
+  {
+    "id": "rpd",
+    "name": "RPD",
+    "category": "armement-leger",
+    "country": "russie",
+    "images": [
+      "img/armement-leger/rpd.jpg",
+      "img/armement-leger/rpd-2.jpg",
+      "img/armement-leger/rpd-3.png",
+      "img/armement-leger/rpd-4.jpg",
+      "img/armement-leger/rpd-5.jpg"
+    ]
   }
 ]

@@ -64,6 +64,7 @@ function renderVehiclePicker(container, vehicles, categories) {
 
 function filterVehiclePicker(container, query) {
   const norm = normalize(query);
+  let anyVisibleTotal = false;
   container.querySelectorAll(".vehicle-picker-group").forEach((group) => {
     let anyVisible = false;
     group.querySelectorAll("li").forEach((li) => {
@@ -72,7 +73,9 @@ function filterVehiclePicker(container, query) {
       if (match) anyVisible = true;
     });
     group.classList.toggle("hidden", !anyVisible);
+    if (anyVisible) anyVisibleTotal = true;
   });
+  document.getElementById("vehicle-picker-empty").classList.toggle("hidden", anyVisibleTotal);
 }
 
 function getSelectedSelectionMode() {

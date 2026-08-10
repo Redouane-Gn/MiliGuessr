@@ -238,6 +238,12 @@ select:focus-visible {
   padding-right: 0.25rem;
 }
 
+.empty-state {
+  text-align: center;
+  color: var(--sage);
+  padding: 1.25rem 0;
+}
+
 .vehicle-picker-group {
   margin-bottom: 0.9rem;
 }
@@ -536,16 +542,21 @@ select:focus-visible {
 
 .result-ring {
   --pct: 0;
+  --ring-color: var(--caution);
   width: 170px;
   height: 170px;
   margin: 0 auto 1.5rem;
   border-radius: 50%;
-  background: conic-gradient(var(--caution) calc(var(--pct) * 1%), var(--bg-alt) 0);
+  background: conic-gradient(var(--ring-color) calc(var(--pct) * 1%), var(--bg-alt) 0);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 9px;
 }
+
+.result-ring--great { --ring-color: var(--identified); }
+.result-ring--mid { --ring-color: var(--caution); }
+.result-ring--bad { --ring-color: var(--alert); }
 
 .result-ring__inner {
   width: 100%;
@@ -564,6 +575,10 @@ select:focus-visible {
   font-weight: 600;
   color: var(--caution);
 }
+
+.result-ring--great #result-percent { color: var(--identified-soft); }
+.result-ring--mid #result-percent { color: var(--caution); }
+.result-ring--bad #result-percent { color: var(--alert-soft); }
 
 .result-score {
   font-family: var(--font-mono);

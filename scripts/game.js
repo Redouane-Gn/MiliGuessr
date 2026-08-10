@@ -281,12 +281,14 @@ function endGame() {
   const accuracy = state.totalRounds > 0 ? Math.round((correctCount / state.totalRounds) * 100) : 0;
   document.getElementById("final-score").textContent = correctCount + " / " + state.totalRounds;
 
+  const comment = commentFor(accuracy);
+
   const ring = document.getElementById("result-ring");
   ring.style.setProperty("--pct", accuracy);
+  ring.className = "result-ring result-ring--" + comment.tier;
   document.getElementById("result-percent").textContent = accuracy + "%";
 
   const badge = document.getElementById("result-badge");
-  const comment = commentFor(accuracy);
   badge.textContent = comment.text;
   badge.className = "result-badge result-badge--" + comment.tier;
 

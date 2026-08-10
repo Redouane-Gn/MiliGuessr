@@ -1,6 +1,6 @@
 name: Déploiement GitHub Pages
 
-# Publie le site sur GitHub Pages à chaque push sur main, SANS l'éditeur
+# Publie le site sur GitHub Pages à chaque push sur master, SANS l'éditeur
 # (editor.html, scripts/editor.js, style/editor.css et le lien qui y mène) :
 # l'éditeur reste un outil local, utilisé avant de pousser les mises à jour.
 #
@@ -11,7 +11,7 @@ name: Déploiement GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   workflow_dispatch:
 
 permissions:
