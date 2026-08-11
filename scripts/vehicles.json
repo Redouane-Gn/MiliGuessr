@@ -1,7 +1,7 @@
 [
   {
     "id": "ah-64-apache",
-    "name": "AH-64 Apache",
+    "name": "AH-64 APACHE",
     "category": "helicopteres",
     "country": "usa",
     "images": [
@@ -898,8 +898,8 @@
     "images": [
       "img/vbci/puma.jpg",
       "img/vbci/puma-2.png",
-      "img/vbci/puma-3.png",
       "img/vbci/puma-4.jpg",
+      "img/vbci/puma-5.jpg",
       "img/vbci/puma-5.jpg"
     ]
   },
@@ -1644,7 +1644,9 @@
       "img/armement-leger/ak-47-4.jpg",
       "img/armement-leger/ak-47-5.jpg"
     ],
-    "aliases": ["AK47"]
+    "aliases": [
+      "AK47"
+    ]
   },
   {
     "id": "aks-47",
@@ -1658,7 +1660,9 @@
       "img/armement-leger/aks-47-4.png",
       "img/armement-leger/aks-47-5.jpg"
     ],
-    "aliases": ["AKS47"]
+    "aliases": [
+      "AKS47"
+    ]
   },
   {
     "id": "akm",
@@ -1684,7 +1688,9 @@
       "img/armement-leger/ak-74-3.png",
       "img/armement-leger/ak-74-4.jpg"
     ],
-    "aliases": ["AK74"]
+    "aliases": [
+      "AK74"
+    ]
   },
   {
     "id": "rpd",
@@ -1697,6 +1703,457 @@
       "img/armement-leger/rpd-3.png",
       "img/armement-leger/rpd-4.jpg",
       "img/armement-leger/rpd-5.jpg"
+    ]
+  },
+  {
+    "id": "wz-10",
+    "name": "WZ-10",
+    "category": "helicopteres",
+    "country": "chine",
+    "images": [
+      "img/helicopteres/wz-10.jpg",
+      "img/helicopteres/wz-10-2.jpg",
+      "img/helicopteres/wz-10-3.jpg",
+      "img/helicopteres/wz-10-4.jpg",
+      "img/helicopteres/wz-10-5.jpg"
+    ]
+  },
+  {
+    "id": "wz-10-2",
+    "name": "WZ-10",
+    "category": "helicopteres",
+    "country": "chine",
+    "images": [
+      "img/helicopteres/wz-10-2.jpg",
+      "img/helicopteres/wz-10-2-2.jpg",
+      "img/helicopteres/wz-10-2-3.jpg",
+      "img/helicopteres/wz-10-2-4.jpg",
+      "img/helicopteres/wz-10-2-5.jpg"
+    ]
+  },
+  {
+    "id": "wz-09",
+    "name": "WZ-09",
+    "category": "helicopteres",
+    "country": "chine",
+    "images": [
+      "img/helicopteres/wz-09.jpg",
+      "img/helicopteres/wz-09-2.jpg",
+      "img/helicopteres/wz-09-3.jpg",
+      "img/helicopteres/wz-09-4.jpg",
+      "img/helicopteres/wz-09-5.jpg"
+    ]
+  },
+  {
+    "id": "wiesel-2",
+    "name": "WIESEL",
+    "category": "reco",
+    "country": "allemagne",
+    "images": [
+      "img/reco/wiesel-2.jpg",
+      "img/reco/wiesel-2-2.jpg",
+      "img/reco/wiesel-2-3.jpg",
+      "img/reco/wiesel-2-4.jpg",
+      "img/reco/wiesel-2-5.jpg"
+    ]
+  },
+  {
+    "id": "vec",
+    "name": "VEC",
+    "category": "reco",
+    "country": "espagne",
+    "images": [
+      "img/reco/vec.jpg",
+      "img/reco/vec-2.jpg",
+      "img/reco/vec-3.jpg",
+      "img/reco/vec-4.jpg",
+      "img/reco/vec-5.jpg"
+    ]
+  },
+  {
+    "id": "gaz-tigr",
+    "name": "GAZ TIGR",
+    "category": "reco",
+    "country": "russie",
+    "images": [
+      "img/reco/gaz-tigr.jpg",
+      "img/reco/gaz-tigr-2.jpg",
+      "img/reco/gaz-tigr-3.jpg",
+      "img/reco/gaz-tigr-4.jpg",
+      "img/reco/gaz-tigr-5.jpg"
+    ]
+  },
+  {
+    "id": "ptl-02",
+    "name": "PTL-02",
+    "category": "reco",
+    "country": "chine",
+    "images": [
+      "img/reco/ptl-02.jpg",
+      "img/reco/ptl-02-2.png",
+      "img/reco/ptl-02-3.jpg",
+      "img/reco/ptl-02-4.jpg",
+      "img/reco/ptl-02-5.jpg"
+    ]
+  },
+  {
+    "id": "jackal",
+    "name": "JACKAL",
+    "category": "reco",
+    "country": "royaume-uni",
+    "images": [
+      "img/reco/jackal.jpg",
+      "img/reco/jackal-2.jpg",
+      "img/reco/jackal-3.jpg",
+      "img/reco/jackal-4.jpg",
+      "img/reco/jackal-5.jpg"
+    ]
+  },
+  {
+    "id": "humvee",
+    "name": "HUMVEE",
+    "category": "reco",
+    "country": "usa",
+    "images": [
+      "img/reco/humvee.jpg",
+      "img/reco/humvee-2.jpg",
+      "img/reco/humvee-3.jpg",
+      "img/reco/humvee-4.jpg",
+      "img/reco/humvee-5.jpg"
+    ]
+  },
+  {
+    "id": "dingo",
+    "name": "DINGO",
+    "category": "reco",
+    "country": "allemagne",
+    "images": [
+      "img/reco/dingo.jpg",
+      "img/reco/dingo-2.jpg",
+      "img/reco/dingo-3.jpg",
+      "img/reco/dingo-4.jpg",
+      "img/reco/dingo-5.jpg"
+    ]
+  },
+  {
+    "id": "ajax",
+    "name": "AJAX",
+    "category": "vbci",
+    "country": "royaume-uni",
+    "images": [
+      "img/vbci/ajax.jpg",
+      "img/vbci/ajax-2.jpg",
+      "img/vbci/ajax-3.jpg",
+      "img/vbci/ajax-4.jpg",
+      "img/vbci/ajax-5.jpg"
+    ]
+  },
+  {
+    "id": "bmp-boumerang",
+    "name": "BMP-BOUMERANG",
+    "category": "vbtt",
+    "country": "russie",
+    "images": [
+      "img/vbtt/bmp-boumerang.jpg",
+      "img/vbtt/bmp-boumerang-2.jpg",
+      "img/vbtt/bmp-boumerang-3.jpg"
+    ]
+  },
+  {
+    "id": "btr-kurganets-25",
+    "name": "BTR KURGANETS-25",
+    "category": "vbtt",
+    "country": "russie",
+    "images": [
+      "img/vbtt/btr-kurganets-25.jpg",
+      "img/vbtt/btr-kurganets-25-2.jpg",
+      "img/vbtt/btr-kurganets-25-3.jpg",
+      "img/vbtt/btr-kurganets-25-4.jpg"
+    ]
+  },
+  {
+    "id": "kto-rosomak",
+    "name": "KTO ROSOMAK",
+    "category": "vbci",
+    "country": "autres",
+    "images": [
+      "img/vbci/kto-rosomak.jpg",
+      "img/vbci/kto-rosomak-2.jpg",
+      "img/vbci/kto-rosomak-3.jpg",
+      "img/vbci/kto-rosomak-4.jpg",
+      "img/vbci/kto-rosomak-5.jpg"
+    ]
+  },
+  {
+    "id": "pandur",
+    "name": "PANDUR",
+    "category": "vbtt",
+    "country": "autres",
+    "images": [
+      "img/vbtt/pandur.jpg",
+      "img/vbtt/pandur-2.jpg",
+      "img/vbtt/pandur-3.jpg",
+      "img/vbtt/pandur-4.jpg",
+      "img/vbtt/pandur-5.jpg"
+    ]
+  },
+  {
+    "id": "t-15",
+    "name": "T-15",
+    "category": "vbci",
+    "country": "russie",
+    "images": [
+      "img/vbci/t-15.jpg",
+      "img/vbci/t-15-2.png",
+      "img/vbci/t-15-3.jpg",
+      "img/vbci/t-15-4.jpg"
+    ]
+  },
+  {
+    "id": "ribbon-bridge",
+    "name": "RIBBON BRIDGE",
+    "category": "genie",
+    "country": "usa",
+    "images": [
+      "img/genie/ribbon-bridge.jpg",
+      "img/genie/ribbon-bridge-2.jpg",
+      "img/genie/ribbon-bridge-3.jpg",
+      "img/genie/ribbon-bridge-4.jpg",
+      "img/genie/ribbon-bridge-5.jpg"
+    ]
+  },
+  {
+    "id": "pmp",
+    "name": "PMP",
+    "category": "genie",
+    "country": "russie",
+    "images": [
+      "img/genie/pmp.png",
+      "img/genie/pmp-2.jpg",
+      "img/genie/pmp-3.png",
+      "img/genie/pmp-4.png",
+      "img/genie/pmp-5.jpg"
+    ]
+  },
+  {
+    "id": "pmm-2",
+    "name": "PMM-2",
+    "category": "genie",
+    "country": "russie",
+    "images": [
+      "img/genie/pmm-2.jpg",
+      "img/genie/pmm-2-2.png",
+      "img/genie/pmm-2-3.png",
+      "img/genie/pmm-2-4.png",
+      "img/genie/pmm-2-5.jpg"
+    ]
+  },
+  {
+    "id": "m9-ace",
+    "name": "M9 ACE",
+    "category": "genie",
+    "country": "usa",
+    "images": [
+      "img/genie/m9-ace.jpg",
+      "img/genie/m9-ace-2.jpg",
+      "img/genie/m9-ace-3.jpg",
+      "img/genie/m9-ace-4.jpg",
+      "img/genie/m9-ace-5.jpg"
+    ]
+  },
+  {
+    "id": "ztd-05",
+    "name": "ZTD-05",
+    "category": "chars",
+    "country": "chine",
+    "images": [
+      "img/chars/ztd-05.jpg",
+      "img/chars/ztd-05-2.jpg",
+      "img/chars/ztd-05-3.jpg",
+      "img/chars/ztd-05-4.jpg",
+      "img/chars/ztd-05-5.jpg"
+    ]
+  },
+  {
+    "id": "type-10",
+    "name": "TYPE-10",
+    "category": "chars",
+    "country": "autres",
+    "images": [
+      "img/chars/type-10.jpg",
+      "img/chars/type-10-2.jpg",
+      "img/chars/type-10-3.jpg",
+      "img/chars/type-10-4.jpg",
+      "img/chars/type-10-5.jpg"
+    ]
+  },
+  {
+    "id": "t-90-ms",
+    "name": "T-90 MS",
+    "category": "chars",
+    "country": "russie",
+    "images": [
+      "img/chars/t-90-ms.jpg",
+      "img/chars/t-90-ms-2.jpg",
+      "img/chars/t-90-ms-3.jpg",
+      "img/chars/t-90-ms-4.jpg",
+      "img/chars/t-90-ms-5.jpg"
+    ]
+  },
+  {
+    "id": "k1",
+    "name": "K1",
+    "category": "chars",
+    "country": "autres",
+    "images": [
+      "img/chars/k1.jpg",
+      "img/chars/k1-2.jpg",
+      "img/chars/k1-3.jpg",
+      "img/chars/k1-4.jpg",
+      "img/chars/k1-5.jpg"
+    ]
+  },
+  {
+    "id": "altay",
+    "name": "ALTAY",
+    "category": "chars",
+    "country": "autres",
+    "images": [
+      "img/chars/altay.jpg",
+      "img/chars/altay-2.jpg",
+      "img/chars/altay-3.jpg",
+      "img/chars/altay-5.jpg",
+      "img/chars/altay-5.jpg"
+    ]
+  },
+  {
+    "id": "fv-433-abbot",
+    "name": "FV-433 ABBOT",
+    "category": "artillerie",
+    "country": "royaume-uni",
+    "images": [
+      "img/artillerie/fv-433-abbot.jpg",
+      "img/artillerie/fv-433-abbot-2.jpg",
+      "img/artillerie/fv-433-abbot-3.jpg",
+      "img/artillerie/fv-433-abbot-4.jpg",
+      "img/artillerie/fv-433-abbot-5.jpg"
+    ]
+  },
+  {
+    "id": "152-d1",
+    "name": "152 D1",
+    "category": "artillerie",
+    "country": "russie",
+    "images": [
+      "img/artillerie/152-d1.jpg",
+      "img/artillerie/152-d1-2.jpg",
+      "img/artillerie/152-d1-3.jpg",
+      "img/artillerie/152-d1-4.jpg",
+      "img/artillerie/152-d1-5.jpg"
+    ]
+  },
+  {
+    "id": "105-m101",
+    "name": "105 M101",
+    "category": "artillerie",
+    "country": "russie",
+    "images": [
+      "img/artillerie/105-m101.jpg",
+      "img/artillerie/105-m101-2.jpg",
+      "img/artillerie/105-m101-3.jpg",
+      "img/artillerie/105-m101-4.jpg",
+      "img/artillerie/105-m101-5.jpg"
+    ]
+  },
+  {
+    "id": "2a36",
+    "name": "2A36",
+    "category": "artillerie",
+    "country": "russie",
+    "images": [
+      "img/artillerie/2a36.jpg",
+      "img/artillerie/2a36-2.jpg",
+      "img/artillerie/2a36-3.jpg",
+      "img/artillerie/2a36-4.jpg",
+      "img/artillerie/2a36-5.jpg"
+    ]
+  },
+  {
+    "id": "spg9",
+    "name": "SPG9",
+    "category": "autres",
+    "country": "russie",
+    "images": [
+      "img/autres/spg9.jpg",
+      "img/autres/spg9-2.jpg",
+      "img/autres/spg9-3.jpg",
+      "img/autres/spg9-4.jpg",
+      "img/autres/spg9-5.jpg"
+    ]
+  },
+  {
+    "id": "aks-74u",
+    "name": "AKS-74U",
+    "category": "armement-leger",
+    "country": "russie",
+    "images": [
+      "img/armement-leger/aks-74u.jpg",
+      "img/armement-leger/aks-74u-2.webp",
+      "img/armement-leger/aks-74u-3.jpg",
+      "img/armement-leger/aks-74u-4.jpg",
+      "img/armement-leger/aks-74u-5.jpg"
+    ]
+  },
+  {
+    "id": "rpk",
+    "name": "RPK",
+    "category": "armement-leger",
+    "country": "russie",
+    "images": [
+      "img/armement-leger/rpk.webp",
+      "img/armement-leger/rpk-2.jpg",
+      "img/armement-leger/rpk-3.jpg",
+      "img/armement-leger/rpk-4.jpg",
+      "img/armement-leger/rpk-5.jpeg"
+    ]
+  },
+  {
+    "id": "type-56",
+    "name": "TYPE-56",
+    "category": "armement-leger",
+    "country": "chine",
+    "images": [
+      "img/armement-leger/type-56.jpg",
+      "img/armement-leger/type-56-2.jpg",
+      "img/armement-leger/type-56-3.webp",
+      "img/armement-leger/type-56-4.jpg",
+      "img/armement-leger/type-56-5.jpg"
+    ]
+  },
+  {
+    "id": "sks",
+    "name": "SKS",
+    "category": "armement-leger",
+    "country": "russie",
+    "images": [
+      "img/armement-leger/sks.webp",
+      "img/armement-leger/sks-2.jpg",
+      "img/armement-leger/sks-3.jpg",
+      "img/armement-leger/sks-4.jpg",
+      "img/armement-leger/sks-5.jpeg"
+    ]
+  },
+  {
+    "id": "amd-63",
+    "name": "AMD-63",
+    "category": "armement-leger",
+    "country": "autres",
+    "images": [
+      "img/armement-leger/amd-63.jpg",
+      "img/armement-leger/amd-63-2.jpeg",
+      "img/armement-leger/amd-63-3.jpg",
+      "img/armement-leger/amd-63-4.jpg",
+      "img/armement-leger/amd-63-5.webp"
     ]
   }
 ]
