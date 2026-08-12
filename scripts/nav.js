@@ -30,7 +30,9 @@ function setAllChecked(listEl, checked) {
 function renderVehiclePicker(container, vehicles, categories) {
   clearChildren(container);
   categories.forEach((cat) => {
-    const vehiclesInCat = vehicles.filter((v) => v.category === cat.id);
+    const vehiclesInCat = vehicles
+      .filter((v) => v.category === cat.id)
+      .sort((a, b) => a.name.localeCompare(b.name));
     if (!vehiclesInCat.length) return;
 
     const group = document.createElement("div");
