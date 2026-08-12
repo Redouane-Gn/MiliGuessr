@@ -2299,7 +2299,7 @@
   {
     "id": "bm-21",
     "name": "BM-21",
-    "category": "autres",
+    "category": "lrm",
     "country": "russie",
     "images": [
       "img/autres/bm-21.jpg",
@@ -2315,7 +2315,7 @@
   {
     "id": "bm-30",
     "name": "BM-30",
-    "category": "autres",
+    "category": "lrm",
     "country": "russie",
     "images": [
       "img/autres/bm-30.jpg",
@@ -2331,7 +2331,7 @@
   {
     "id": "rm-70",
     "name": "RM-70",
-    "category": "autres",
+    "category": "lrm",
     "country": "russie",
     "images": [
       "img/autres/rm-70.jpg",
@@ -2347,7 +2347,7 @@
   {
     "id": "mq-9-reaper",
     "name": "MQ-9 REAPER",
-    "category": "autres",
+    "category": "drones",
     "country": "usa",
     "images": [
       "img/autres/mq-9-reaper.webp",
@@ -2365,7 +2365,7 @@
   {
     "id": "hermes-450",
     "name": "HERMES 450",
-    "category": "autres",
+    "category": "drones",
     "country": "israel",
     "images": [
       "img/autres/hermes-450.jpg",
@@ -2378,7 +2378,7 @@
   {
     "id": "hermes-900",
     "name": "HERMES 900",
-    "category": "autres",
+    "category": "drones",
     "country": "israel",
     "images": [
       "img/autres/hermes-900.avif",
@@ -2391,7 +2391,7 @@
   {
     "id": "bayraktar-tb2",
     "name": "BAYRAKTAR TB2",
-    "category": "autres",
+    "category": "drones",
     "country": "autres",
     "images": [
       "img/autres/bayraktar-tb2.webp",
@@ -2408,7 +2408,7 @@
   {
     "id": "rq-20-puma",
     "name": "RQ-20 PUMA",
-    "category": "autres",
+    "category": "drones",
     "country": "usa",
     "images": [
       "img/autres/rq-20-puma.jpg",
@@ -2425,7 +2425,7 @@
   {
     "id": "rq-11-raven",
     "name": "RQ-11 RAVEN",
-    "category": "autres",
+    "category": "drones",
     "country": "usa",
     "images": [
       "img/autres/rq-11-raven.jpg",
@@ -2443,7 +2443,7 @@
   {
     "id": "orlan-10",
     "name": "ORLAN-10",
-    "category": "autres",
+    "category": "drones",
     "country": "russie",
     "images": [
       "img/autres/orlan-10.jpg",
@@ -2459,7 +2459,7 @@
   {
     "id": "leleka-100",
     "name": "LELEKA-100",
-    "category": "autres",
+    "category": "drones",
     "country": "autres",
     "images": [
       "img/autres/leleka-100.jpg",
@@ -2619,7 +2619,7 @@
   {
     "id": "tos-1",
     "name": "TOS-1",
-    "category": "autres",
+    "category": "lrm",
     "country": "russie",
     "images": [
       "img/autres/tos-1.jpg",

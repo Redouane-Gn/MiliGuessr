@@ -61,14 +61,23 @@ function dedupeByName(list) {
 
 function buildQcmOptions(correctVehicle, poolVehicles) {
   // Les mauvaises réponses viennent uniquement de la même catégorie que le véhicule à deviner
-  // (plus cohérent : pas d'avion mélangé à des chars). S'il y en a moins de 3, le QCM propose
-  // moins de 4 options plutôt que de piocher hors catégorie.
+  // (plus cohérent : pas d'avion mélangé à des chars).
   // Plusieurs véhicules du même nom existent pour différents pays (ex. "AH-64 Apache") : on
   // déduplique par nom pour ne jamais afficher deux fois le même intitulé.
-  const sameCategory = dedupeByName(
+  const fromPool = dedupeByName(
     poolVehicles.filter((v) => v.category === correctVehicle.category && v.name !== correctVehicle.name)
   );
-  const distractors = sameCategory.slice(0, 3);
+  let distractors = fromPool.slice(0, 3);
+  if (distractors.length < 3) {
+    // Sélection trop restreinte (ex. un seul véhicule coché par catégorie en mode
+    // "véhicule par véhicule") : on complète avec d'autres véhicules de la même catégorie
+    // pris dans la base complète, pour garder un vrai QCM à 4 propositions.
+    const usedNames = new Set([correctVehicle.name, ...distractors.map((v) => v.name)]);
+    const fromFullSet = dedupeByName(
+      VEHICLES.filter((v) => v.category === correctVehicle.category && !usedNames.has(v.name))
+    );
+    distractors = distractors.concat(fromFullSet.slice(0, 3 - distractors.length));
+  }
   return shuffle([correctVehicle, ...distractors]);
 }
 
