@@ -116,6 +116,17 @@ function initNav() {
   const vehiclePickerPanel = document.getElementById("vehicle-picker-panel");
   const playBtn = document.getElementById("btn-play");
 
+  function updateSelectionCount() {
+    const count =
+      getSelectedSelectionMode() === "vehicles"
+        ? getCheckedValues(vehiclePickerList).length
+        : VEHICLES.filter(
+            (v) => getCheckedValues(categoryList).includes(v.category) && getCheckedValues(countryList).includes(v.country)
+          ).length;
+    document.getElementById("selection-count").textContent =
+      count + (count > 1 ? " véhicules sélectionnés" : " véhicule sélectionné");
+  }
+
   playBtn.disabled = true;
   playBtn.textContent = "Chargement…";
   onDataReady(() => {
@@ -124,14 +135,19 @@ function initNav() {
     renderVehiclePicker(vehiclePickerList, VEHICLES, CATEGORIES);
     playBtn.disabled = false;
     playBtn.textContent = "Jouer";
+    updateSelectionCount();
   });
 
-  document.getElementById("btn-check-all-cat").addEventListener("click", () => setAllChecked(categoryList, true));
-  document.getElementById("btn-uncheck-all-cat").addEventListener("click", () => setAllChecked(categoryList, false));
-  document.getElementById("btn-check-all-country").addEventListener("click", () => setAllChecked(countryList, true));
-  document.getElementById("btn-uncheck-all-country").addEventListener("click", () => setAllChecked(countryList, false));
-  document.getElementById("btn-check-all-vehicles").addEventListener("click", () => setAllChecked(vehiclePickerList, true));
-  document.getElementById("btn-uncheck-all-vehicles").addEventListener("click", () => setAllChecked(vehiclePickerList, false));
+  categoryList.addEventListener("change", updateSelectionCount);
+  countryList.addEventListener("change", updateSelectionCount);
+  vehiclePickerList.addEventListener("change", updateSelectionCount);
+
+  document.getElementById("btn-check-all-cat").addEventListener("click", () => { setAllChecked(categoryList, true); updateSelectionCount(); });
+  document.getElementById("btn-uncheck-all-cat").addEventListener("click", () => { setAllChecked(categoryList, false); updateSelectionCount(); });
+  document.getElementById("btn-check-all-country").addEventListener("click", () => { setAllChecked(countryList, true); updateSelectionCount(); });
+  document.getElementById("btn-uncheck-all-country").addEventListener("click", () => { setAllChecked(countryList, false); updateSelectionCount(); });
+  document.getElementById("btn-check-all-vehicles").addEventListener("click", () => { setAllChecked(vehiclePickerList, true); updateSelectionCount(); });
+  document.getElementById("btn-uncheck-all-vehicles").addEventListener("click", () => { setAllChecked(vehiclePickerList, false); updateSelectionCount(); });
 
   document.getElementById("vehicle-search").addEventListener("input", (event) => {
     filterVehiclePicker(vehiclePickerList, event.target.value);
@@ -142,6 +158,7 @@ function initNav() {
       const useVehicles = getSelectedSelectionMode() === "vehicles";
       filtersPanel.classList.toggle("hidden", useVehicles);
       vehiclePickerPanel.classList.toggle("hidden", !useVehicles);
+      updateSelectionCount();
     });
   });
 

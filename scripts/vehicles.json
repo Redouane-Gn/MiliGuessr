@@ -171,6 +171,9 @@
       "img/artillerie/155m777-3.jpg",
       "img/artillerie/155m777-4.jpg",
       "img/artillerie/155m777-5.jpg"
+    ],
+    "aliases": [
+      "M777"
     ]
   },
   {
@@ -380,9 +383,6 @@
       "img/reco/brdm-2-at5-3.jpg",
       "img/reco/brdm-2-at5-4.jpg",
       "img/reco/brdm-2-at5-5.jpg"
-    ],
-    "aliases": [
-      "AT5"
     ]
   },
   {
@@ -396,9 +396,6 @@
       "img/reco/brdm-2-rkh-3.png",
       "img/reco/brdm-2-rkh-4.jpg",
       "img/reco/brdm-2-rkh-5.png"
-    ],
-    "aliases": [
-      "RKH"
     ]
   },
   {
@@ -624,9 +621,6 @@
       "img/chars/leopard-2-a5-6-3.jpg",
       "img/chars/leopard-2-a5-6-4.jpg",
       "img/chars/leopard-2-a5-6-5.jpg"
-    ],
-    "aliases": [
-      "A5/6"
     ]
   },
   {
@@ -642,7 +636,6 @@
       "img/chars/m1-abrams-5.jpg"
     ],
     "aliases": [
-      "M1",
       "ABRAMS"
     ]
   },
@@ -805,7 +798,6 @@
       "img/vbtt/patria-xa180-5.jpg"
     ],
     "aliases": [
-      "PATRIA",
       "XA180"
     ]
   },
@@ -882,7 +874,6 @@
       "img/vbci/puma.jpg",
       "img/vbci/puma-2.png",
       "img/vbci/puma-4.jpg",
-      "img/vbci/puma-5.jpg",
       "img/vbci/puma-5.jpg"
     ]
   },
@@ -966,11 +957,10 @@
     "category": "chars",
     "country": "russie",
     "images": [
-      "img/chars/t-64.jpg",
-      "img/chars/t-64-2.jpg",
-      "img/chars/t-64-3.jpg",
       "img/chars/t-64-4.jpg",
-      "img/chars/t-64-5.jpg"
+      "img/chars/t-64-5.jpg",
+      "img/chars/t-64-3.jpg",
+      "img/chars/t-64-5.webp"
     ]
   },
   {
@@ -1118,9 +1108,6 @@
       "img/autres/100-t12-3.jpg",
       "img/autres/100-t12-4.jpg",
       "img/autres/100-t12-5.jpg"
-    ],
-    "aliases": [
-      "T12"
     ]
   },
   {
@@ -1224,8 +1211,7 @@
     ],
     "aliases": [
       "AMX-10",
-      "AMX10",
-      "RC"
+      "AMX10"
     ]
   },
   {
@@ -1387,8 +1373,7 @@
       "img/reco/eagle-iv-5.webp"
     ],
     "aliases": [
-      "EAGLE",
-      "IV"
+      "EAGLE 4"
     ]
   },
   {
@@ -1851,6 +1836,7 @@
       "img/vbtt/bmp-boumerang-3.jpg"
     ],
     "aliases": [
+      "BOUMERANG",
       "BMPBOUMERANG"
     ]
   },
@@ -1866,8 +1852,8 @@
       "img/vbtt/btr-kurganets-25-4.jpg"
     ],
     "aliases": [
-      "BTR",
       "KURGANETS-25",
+      "KURGANETS",
       "KURGANETS25"
     ]
   },
@@ -1884,8 +1870,8 @@
       "img/vbci/kto-rosomak-5.jpg"
     ],
     "aliases": [
-      "KTO",
-      "ROSOMAK"
+      "ROSOMAK",
+      "KTO"
     ]
   },
   {
@@ -1927,10 +1913,6 @@
       "img/genie/ribbon-bridge-3.jpg",
       "img/genie/ribbon-bridge-4.jpg",
       "img/genie/ribbon-bridge-5.jpg"
-    ],
-    "aliases": [
-      "RIBBON",
-      "BRIDGE"
     ]
   },
   {
@@ -2022,9 +2004,6 @@
       "img/chars/t-90-ms-3.jpg",
       "img/chars/t-90-ms-4.jpg",
       "img/chars/t-90-ms-5.jpg"
-    ],
-    "aliases": [
-      "MS"
     ]
   },
   {
@@ -2049,7 +2028,6 @@
       "img/chars/altay.jpg",
       "img/chars/altay-2.jpg",
       "img/chars/altay-3.jpg",
-      "img/chars/altay-5.jpg",
       "img/chars/altay-5.jpg"
     ]
   },
@@ -2082,9 +2060,6 @@
       "img/artillerie/152-d1-3.jpg",
       "img/artillerie/152-d1-4.jpg",
       "img/artillerie/152-d1-5.jpg"
-    ],
-    "aliases": [
-      "D1"
     ]
   },
   {
@@ -2098,9 +2073,6 @@
       "img/artillerie/105-m101-3.jpg",
       "img/artillerie/105-m101-4.jpg",
       "img/artillerie/105-m101-5.jpg"
-    ],
-    "aliases": [
-      "M101"
     ]
   },
   {
@@ -2496,9 +2468,6 @@
       "img/artillerie/122-m30-3.jpg",
       "img/artillerie/122-m30-4.jpg",
       "img/artillerie/122-m30-5.jpg"
-    ],
-    "aliases": [
-      "M30"
     ]
   },
   {
@@ -2611,9 +2580,6 @@
       "img/chars/t-80-u-3.jpg",
       "img/chars/t-80-u-4.jpg",
       "img/chars/t-80-u-5.png"
-    ],
-    "aliases": [
-      "U"
     ]
   },
   {
@@ -2657,10 +2623,11 @@
       "img/chars/t-64-bv.webp",
       "img/chars/t-64-bv-2.webp",
       "img/chars/t-64-bv-3.jpg",
-      "img/chars/t-64-bv-4.jpg"
+      "img/chars/t-64-bv-4.jpg",
+      "img/chars/t-64-bv-5.jpg"
     ],
     "aliases": [
-      "BV"
+      "T64 BV"
     ]
   },
   {
@@ -2716,11 +2683,6 @@
       "img/autres/zsu-23-4-3.webp",
       "img/autres/zsu-23-4-4.jpg",
       "img/autres/zsu-23-4-5.jpg"
-    ],
-    "aliases": [
-      "ZSU",
-      "23-4",
-      "234"
     ]
   },
   {
@@ -2827,6 +2789,305 @@
     ],
     "aliases": [
       "BULAT"
+    ]
+  },
+  {
+    "id": "type-85",
+    "name": "TYPE-85 AFV",
+    "category": "vbtt",
+    "country": "chine",
+    "images": [
+      "img/vbtt/type-85.jpg",
+      "img/vbtt/type-85-2.jpg",
+      "img/vbtt/type-85-3.jpg",
+      "img/vbtt/type-85-4.jpg",
+      "img/vbtt/type-85-5.jpg"
+    ]
+  },
+  {
+    "id": "type-85-2",
+    "name": "TYPE-85",
+    "category": "chars",
+    "country": "chine",
+    "images": [
+      "img/chars/type-85-2.jpg",
+      "img/chars/type-85-2-2.jpg",
+      "img/chars/type-85-2-3.jpg",
+      "img/chars/type-85-2-4.jpg",
+      "img/chars/type-85-2-5.webp"
+    ]
+  },
+  {
+    "id": "ztz-96",
+    "name": "ZTZ-96",
+    "category": "chars",
+    "country": "chine",
+    "images": [
+      "img/chars/ztz-96.jpg",
+      "img/chars/ztz-96-2.jpg",
+      "img/chars/ztz-96-3.jpg",
+      "img/chars/ztz-96-4.jpg"
+    ],
+    "aliases": [
+      "ZTZ96"
+    ]
+  },
+  {
+    "id": "freccia",
+    "name": "FRECCIA",
+    "category": "vbtt",
+    "country": "italie",
+    "images": [
+      "img/vbtt/freccia.jpg",
+      "img/vbtt/freccia-2.jpg",
+      "img/vbtt/freccia-3.jpg",
+      "img/vbtt/freccia-4.avif",
+      "img/vbtt/freccia-5.jpg"
+    ]
+  },
+  {
+    "id": "griffon",
+    "name": "GRIFFON",
+    "category": "vbtt",
+    "country": "france",
+    "images": [
+      "img/vbtt/griffon.avif",
+      "img/vbtt/griffon-2.jpg",
+      "img/vbtt/griffon-3.jpg",
+      "img/vbtt/griffon-4.jpg",
+      "img/vbtt/griffon-5.jpg"
+    ]
+  },
+  {
+    "id": "jaguar",
+    "name": "JAGUAR",
+    "category": "reco",
+    "country": "france",
+    "images": [
+      "img/reco/jaguar.jpg",
+      "img/reco/jaguar-2.jpg",
+      "img/reco/jaguar-3.jpg",
+      "img/reco/jaguar-4.jpg",
+      "img/reco/jaguar-5.jpg"
+    ]
+  },
+  {
+    "id": "vbci",
+    "name": "VBCI",
+    "category": "vbci",
+    "country": "france",
+    "images": [
+      "img/vbci/vbci.jpg",
+      "img/vbci/vbci-2.jpg",
+      "img/vbci/vbci-3.jpg",
+      "img/vbci/vbci-4.jpg",
+      "img/vbci/vbci-5.jpg"
+    ]
+  },
+  {
+    "id": "ulan",
+    "name": "ULAN",
+    "category": "vbci",
+    "country": "autres",
+    "images": [
+      "img/vbci/ulan.jpg",
+      "img/vbci/ulan-2.jpg",
+      "img/vbci/ulan-3.jpg",
+      "img/vbci/ulan-4.jpg",
+      "img/vbci/ulan-5.jpg"
+    ]
+  },
+  {
+    "id": "pizzaro",
+    "name": "PIZARRO",
+    "category": "vbci",
+    "country": "espagne",
+    "images": [
+      "img/vbci/pizzaro.jpg",
+      "img/vbci/pizzaro-2.jpg",
+      "img/vbci/pizzaro-3.jpg",
+      "img/vbci/pizzaro-4.webp",
+      "img/vbci/pizzaro-5.jpg"
+    ]
+  },
+  {
+    "id": "vab",
+    "name": "VAB",
+    "category": "vbtt",
+    "country": "france",
+    "images": [
+      "img/vbtt/vab.webp",
+      "img/vbtt/vab-2.jpg",
+      "img/vbtt/vab-3.jpg",
+      "img/vbtt/vab-4.avif",
+      "img/vbtt/vab-5.jpg"
+    ]
+  },
+  {
+    "id": "vamtac",
+    "name": "VAMTAC",
+    "category": "reco",
+    "country": "espagne",
+    "images": [
+      "img/reco/vamtac.jpg",
+      "img/reco/vamtac-2.jpg",
+      "img/reco/vamtac-3.jpg",
+      "img/reco/vamtac-4.jpg",
+      "img/reco/vamtac-5.jpg"
+    ]
+  },
+  {
+    "id": "lav-25",
+    "name": "LAV-25",
+    "category": "vbci",
+    "country": "usa",
+    "images": [
+      "img/vbci/lav-25.webp",
+      "img/vbci/lav-25-2.jpg",
+      "img/vbci/lav-25-3.jpg",
+      "img/vbci/lav-25-4.jpg",
+      "img/vbci/lav-25-5.jpg"
+    ],
+    "aliases": [
+      "LAV25"
+    ]
+  },
+  {
+    "id": "viking",
+    "name": "VIKING",
+    "category": "vbtt",
+    "country": "autres",
+    "images": [
+      "img/vbtt/viking.jpg",
+      "img/vbtt/viking-2.jpg",
+      "img/vbtt/viking-3.jpg",
+      "img/vbtt/viking-4.webp",
+      "img/vbtt/viking-5.jpg"
+    ]
+  },
+  {
+    "id": "patria-xa360",
+    "name": "PATRIA XA360",
+    "category": "vbtt",
+    "country": "autres",
+    "images": [
+      "img/vbtt/patria-xa360.jpg",
+      "img/vbtt/patria-xa360-2.jpg",
+      "img/vbtt/patria-xa360-3.jpg",
+      "img/vbtt/patria-xa360-4.webp",
+      "img/vbtt/patria-xa360-5.jpg"
+    ],
+    "aliases": [
+      "XA360"
+    ]
+  },
+  {
+    "id": "m1134-atgm",
+    "name": "M1134 ATGM",
+    "category": "vbtt",
+    "country": "usa",
+    "images": [
+      "img/vbtt/m1134-atgm.jpg",
+      "img/vbtt/m1134-atgm-2.jpg",
+      "img/vbtt/m1134-atgm-3.jpeg",
+      "img/vbtt/m1134-atgm-4.jpg",
+      "img/vbtt/m1134-atgm-5.jpg"
+    ],
+    "aliases": [
+      "M1134",
+      "ATGM"
+    ]
+  },
+  {
+    "id": "m40-a1-106sr",
+    "name": "M40 A1 106SR",
+    "category": "autres",
+    "country": "usa",
+    "images": [
+      "img/autres/m40-a1-106sr.jpg",
+      "img/autres/m40-a1-106sr-2.jpg",
+      "img/autres/m40-a1-106sr-3.jpg",
+      "img/autres/m40-a1-106sr-4.jpg",
+      "img/autres/m40-a1-106sr-5.jpg"
+    ],
+    "aliases": [
+      "M40A1",
+      "106SR",
+      "M40",
+      "A1"
+    ]
+  },
+  {
+    "id": "shturm-s",
+    "name": "SHTURM-S",
+    "category": "autres",
+    "country": "russie",
+    "images": [
+      "img/autres/shturm-s.jpg",
+      "img/autres/shturm-s-2.jpg",
+      "img/autres/shturm-s-3.jpeg",
+      "img/autres/shturm-s-4.jpg",
+      "img/autres/shturm-s-5.jpg"
+    ],
+    "aliases": [
+      "SHTURM",
+      "SHTURMS"
+    ]
+  },
+  {
+    "id": "zu-23-2",
+    "name": "ZU 23-2",
+    "category": "autres",
+    "country": "russie",
+    "images": [
+      "img/autres/zu-23-2.webp",
+      "img/autres/zu-23-2-2.jpg",
+      "img/autres/zu-23-2-3.jpg",
+      "img/autres/zu-23-2-4.jpg",
+      "img/autres/zu-23-2-5.jpg"
+    ]
+  },
+  {
+    "id": "leguan",
+    "name": "LEGUAN",
+    "category": "genie",
+    "country": "allemagne",
+    "images": [
+      "img/genie/leguan.webp",
+      "img/genie/leguan-2.avif",
+      "img/genie/leguan-3.avif",
+      "img/genie/leguan-4.avif",
+      "img/genie/leguan-5.webp"
+    ]
+  },
+  {
+    "id": "wolverine",
+    "name": "WOLVERINE",
+    "category": "genie",
+    "country": "usa",
+    "images": [
+      "img/genie/wolverine.jpg",
+      "img/genie/wolverine-2.jpg",
+      "img/genie/wolverine-3.jpg",
+      "img/genie/wolverine-4.jpg",
+      "img/genie/wolverine-5.jpg"
+    ]
+  },
+  {
+    "id": "iveco-lince",
+    "name": "IVECO LINCE",
+    "category": "reco",
+    "country": "italie",
+    "images": [
+      "img/reco/iveco-lince.webp",
+      "img/reco/iveco-lince-2.jpg",
+      "img/reco/iveco-lince-3.jpg",
+      "img/reco/iveco-lince-4.jpg",
+      "img/reco/iveco-lince-5.webp"
+    ],
+    "aliases": [
+      "IVECO",
+      "LINCE"
     ]
   }
 ]
