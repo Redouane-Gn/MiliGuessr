@@ -1,6 +1,6 @@
 # MiliGuessr
 
-Quiz de reconnaissance de matériel militaire (avions, hélicoptères, chars, VBTT, VBCI, reconnaissance, artillerie, génie, armement léger) par pays. Site statique HTML/CSS/JS — sans build, sans framework, sans backend.
+Quiz de reconnaissance de matériel militaire (chars, VBCI, VBTT, reconnaissance, artillerie, LRM, génie, avions, hélicoptères, drones, armement léger) par pays. Site statique HTML/CSS/JS — sans build, sans framework, sans backend.
 
 ## Démarrage rapide
 
@@ -12,6 +12,7 @@ Puis ouvrez `http://localhost:8000`. Un serveur local est nécessaire : les donn
 
 ## Jouer
 
+- Sélection de la partie **par catégorie et pays** (cases à cocher) ou **véhicule par véhicule** (recherche + sélection individuelle) ; le nombre de véhicules retenus s'affiche en direct.
 - **QCM** ou **réponse écrite** (accents/casse/tirets ignorés dans la comparaison).
 - **Chronométré** (5 à 60 s/question) ou **libre**.
 - **10 à 100 véhicules** par partie, aucune photo répétée tant qu'il y en a assez pour couvrir la partie.
@@ -47,10 +48,10 @@ Pour une nouvelle catégorie/pays : ajoutez une entrée `{ id, label }` dans `sc
 
 ## Déployer sur GitHub Pages
 
-Le workflow `.github/workflows/deploy.yml` publie le site à chaque push sur `main`, **sans l'éditeur** (`editor.html`, `scripts/editor.js`, `style/editor.css` et son lien sont exclus du build — ils restent dans le dépôt local). GitHub Pages n'a pas de backend/authentification ; c'est cette exclusion, pas un mot de passe contournable, qui garde l'éditeur réservé à l'administrateur.
+Le workflow `.github/workflows/deploy.yml` publie le site à chaque push sur `master`, **sans l'éditeur** (`editor.html`, `scripts/editor.js`, `style/editor.css` et son lien sont exclus du build — ils restent dans le dépôt local). GitHub Pages n'a pas de backend/authentification ; c'est cette exclusion, pas un mot de passe contournable, qui garde l'éditeur réservé à l'administrateur.
 
 1. `git add . && git commit -m "Site initial"`
-2. `git remote add origin https://github.com/<compte>/<repo>.git && git push -u origin main`
+2. `git remote add origin https://github.com/<compte>/<repo>.git && git push -u origin master`
 3. Sur GitHub : **Settings → Pages → Source: Deploy from a branch**, puis choisissez la branche **`gh-pages`** (dossier `/root`). Cette branche est créée automatiquement par le workflow après le premier push — si elle n'apparaît pas encore dans la liste, attendez la fin du premier run dans l'onglet **Actions**, puis rafraîchissez.
 4. Le site sera en ligne sur `https://<compte>.github.io/<repo>/`.
 
