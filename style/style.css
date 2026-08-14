@@ -306,6 +306,12 @@ select:focus-visible {
   font-size: 0.9rem;
 }
 
+.selection-count {
+  font-size: 0.8rem;
+  color: var(--sage);
+  margin: 0.6rem 0 0;
+}
+
 .warning-message {
   color: var(--alert-soft);
   font-size: 0.85rem;
