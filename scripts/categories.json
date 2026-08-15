@@ -5,10 +5,12 @@
   { "id": "reco", "label": "Véhicules de reconnaissances" },
   { "id": "artillerie", "label": "Artillerie" },
   { "id": "lrm", "label": "LRM" },
+  { "id": "anti-char", "label": "Anti-char" },
   { "id": "genie", "label": "Génie" },
   { "id": "avions", "label": "Avions" },
   { "id": "helicopteres", "label": "Hélicoptères" },
   { "id": "drones", "label": "Drones" },
+  { "id": "anti-aerien", "label": "Anti-aérien" },
   { "id": "armement-leger", "label": "Armement léger" },
   { "id": "autres", "label": "Autres" }
 ]

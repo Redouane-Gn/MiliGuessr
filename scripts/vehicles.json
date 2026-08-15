@@ -1100,7 +1100,7 @@
   {
     "id": "100-t12",
     "name": "100 T12",
-    "category": "autres",
+    "category": "anti-char",
     "country": "russie",
     "images": [
       "img/autres/100-t12.jpg",
@@ -1113,7 +1113,7 @@
   {
     "id": "2a45",
     "name": "2A45",
-    "category": "autres",
+    "category": "anti-char",
     "country": "russie",
     "images": [
       "img/autres/2a45.jpg",
@@ -2091,7 +2091,7 @@
   {
     "id": "spg9",
     "name": "SPG9",
-    "category": "autres",
+    "category": "anti-char",
     "country": "russie",
     "images": [
       "img/autres/spg9.jpg",
@@ -2217,7 +2217,7 @@
   {
     "id": "sa-6-gainful",
     "name": "SA-6 GAINFUL",
-    "category": "autres",
+    "category": "anti-aerien",
     "country": "russie",
     "images": [
       "img/autres/sa-6-gainful.jpg",
@@ -2235,7 +2235,7 @@
   {
     "id": "sa-8-gecko",
     "name": "SA-8 GECKO",
-    "category": "autres",
+    "category": "anti-aerien",
     "country": "russie",
     "images": [
       "img/autres/sa-8-gecko.jpg",
@@ -2253,7 +2253,7 @@
   {
     "id": "sa-11-gadfly",
     "name": "SA-11 GADFLY",
-    "category": "autres",
+    "category": "anti-aerien",
     "country": "russie",
     "images": [
       "img/autres/sa-11-gadfly.jpg",
@@ -2675,7 +2675,7 @@
   {
     "id": "zsu-23-4",
     "name": "ZSU 23-4",
-    "category": "autres",
+    "category": "anti-aerien",
     "country": "russie",
     "images": [
       "img/autres/zsu-23-4.jpg",
@@ -3001,7 +3001,7 @@
   {
     "id": "m40-a1-106sr",
     "name": "M40 A1 106SR",
-    "category": "autres",
+    "category": "anti-char",
     "country": "usa",
     "images": [
       "img/autres/m40-a1-106sr.jpg",
@@ -3020,7 +3020,7 @@
   {
     "id": "shturm-s",
     "name": "SHTURM-S",
-    "category": "autres",
+    "category": "anti-char",
     "country": "russie",
     "images": [
       "img/autres/shturm-s.jpg",
@@ -3037,7 +3037,7 @@
   {
     "id": "zu-23-2",
     "name": "ZU 23-2",
-    "category": "autres",
+    "category": "anti-aerien",
     "country": "russie",
     "images": [
       "img/autres/zu-23-2.webp",
