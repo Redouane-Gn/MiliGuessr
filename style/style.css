@@ -98,14 +98,14 @@ select:focus-visible {
 
 /* --- Options repliables -------------------------------------------------- */
 
-#options-panel {
+.options-panel {
   text-align: left;
   margin: 1.5rem 0 1rem;
   border-top: 1px solid var(--bg-alt);
   padding-top: 0.5rem;
 }
 
-#options-panel summary {
+.options-panel summary {
   cursor: pointer;
   list-style: none;
   display: flex;
@@ -117,22 +117,22 @@ select:focus-visible {
   color: var(--sage);
 }
 
-#options-panel summary::-webkit-details-marker {
+.options-panel summary::-webkit-details-marker {
   display: none;
 }
 
-#options-panel summary::after {
+.options-panel summary::after {
   content: "›";
   font-size: 1.2rem;
   color: var(--sage);
   transition: transform 0.15s ease;
 }
 
-#options-panel[open] summary::after {
+.options-panel[open] summary::after {
   transform: rotate(90deg);
 }
 
-#options-panel[open] summary {
+.options-panel[open] summary {
   color: var(--paper);
   margin-bottom: 0.5rem;
 }
@@ -363,6 +363,10 @@ select:focus-visible {
   border-color: var(--paper);
 }
 
+#btn-ceito {
+  margin-top: 0.75rem;
+}
+
 #screen-menu {
   text-align: center;
   padding-top: 2.25rem;
@@ -379,6 +383,24 @@ select:focus-visible {
 .editor-link:hover {
   color: var(--paper);
   text-decoration: underline;
+}
+
+.credit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2.5rem;
+  color: var(--sage);
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+.credit-logo {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
 }
 
 /* --- Écran de jeu -------------------------------------------------------- */
