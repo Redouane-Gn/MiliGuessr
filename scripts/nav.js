@@ -1,5 +1,36 @@
 // Écran d'accueil : cases catégories/pays, mode de réponse, chronomètre, nombre de véhicules, bouton JOUER.
 
+// Mode CEITO : sélection fixe de véhicules et paramètres figés (QCM, sans temps, tous les véhicules
+// de la liste), sans passer par le panneau de personnalisation.
+const CEITO_VEHICLE_IDS = [
+  // Chars
+  "t-55", "t-62", "t-64", "t-72", "t-72-b3", "t-80", "bmpt", "bmpt-2", "t-14", "t-15",
+  "m1-abrams", "m60", "leopard-1", "leopard-2-a5-6", "chieftain", "challenger-2", "ariete",
+  "ztz-98", "ztz-99", "type-10", "arjun", "k1", "k2", "merkava-3", "merkava-4",
+  "ztd-05", "type-85-2",
+  // Reconnaissance
+  "brdm-2", "brm-1", "brm-3", "gaz-tigr", "scimitar", "humvee", "dingo",
+  "wiesel-2", "cobra", "eagle-iv", "jackal", "fennek", "vec", "centauro", "ptl-02",
+  // VBCI / VBTT
+  "bmp-1", "bmp-2", "bmp-3", "mtlb", "bmd-1", "bmd-2", "bmd-3", "bmd-4",
+  "marder", "puma", "bradley", "warrior", "kto-rosomak", "pandur", "pizzaro", "ulan",
+  "btr-60", "btr-70", "btr-80", "btr-80a", "patria-xa180", "fuchs", "bmr-600", "piranha-3", "stryker", "m113",
+  "boxer", "wz-551", "type-85", "aav7", "bmo-t",
+  // Artillerie
+  "l118-lightgun", "122d30", "130m46", "2a65", "fh70", "155m777",
+  "2s1", "2s3", "2s5", "2s7", "as90", "pzh2000", "m109",
+  "152d20", "2a36", "plz-07", "2s19", "2s35",
+  // Génie
+  "mdk-2", "pzm", "bat-2", "m9-ace", "dachs", "gmz-3", "imr-2",
+  "mtu-72", "tmm-3", "tmm-6", "pts-02", "ribbon-bridge", "m3-amphibious-rig", "pmm-2", "wolverine",
+  // Anti-char
+  "spg9", "m1134-atgm", "2a45", "brdm-2-at5",
+  // Anti-aérien
+  "zu-23-2", "zsu-23-4", "sa-6-gainful", "sa-8-gecko",
+  // Hélicoptères
+  "ah-1-cobra", "ah-64-apache", "tigre", "a129-mangusta", "mi-24-hind", "mi-28-havoc", "ka-50", "mi-8-hip", "ch-47-chinook",
+];
+
 function renderCheckboxList(listEl, items, groupName) {
   clearChildren(listEl);
   items.forEach((item) => {
@@ -97,6 +128,19 @@ function syncTimeSecondsVisibility() {
   document.getElementById("time-seconds-wrapper").classList.toggle("hidden", !timed);
 }
 
+function getCeitoAnswerMode() {
+  return document.querySelector('input[name="ceito-answer-mode"]:checked').value;
+}
+
+function getCeitoTimeMode() {
+  return document.querySelector('input[name="ceito-time-mode"]:checked').value;
+}
+
+function syncCeitoTimeSecondsVisibility() {
+  const timed = getCeitoTimeMode() === "timed";
+  document.getElementById("ceito-time-seconds-wrapper").classList.toggle("hidden", !timed);
+}
+
 function showMenuWarning(message) {
   const el = document.getElementById("menu-warning");
   el.textContent = message;
@@ -115,6 +159,7 @@ function initNav() {
   const filtersPanel = document.getElementById("filters-panel");
   const vehiclePickerPanel = document.getElementById("vehicle-picker-panel");
   const playBtn = document.getElementById("btn-play");
+  const ceitoBtn = document.getElementById("btn-ceito");
 
   function updateSelectionCount() {
     const count =
@@ -129,12 +174,14 @@ function initNav() {
 
   playBtn.disabled = true;
   playBtn.textContent = "Chargement…";
+  ceitoBtn.disabled = true;
   onDataReady(() => {
     renderCheckboxList(categoryList, CATEGORIES, "category");
     renderCheckboxList(countryList, COUNTRIES, "country");
     renderVehiclePicker(vehiclePickerList, VEHICLES, CATEGORIES);
     playBtn.disabled = false;
     playBtn.textContent = "Jouer";
+    ceitoBtn.disabled = false;
     updateSelectionCount();
   });
 
@@ -167,6 +214,11 @@ function initNav() {
   });
   syncTimeSecondsVisibility();
 
+  document.querySelectorAll('input[name="ceito-time-mode"]').forEach((radio) => {
+    radio.addEventListener("change", syncCeitoTimeSecondsVisibility);
+  });
+  syncCeitoTimeSecondsVisibility();
+
   document.getElementById("btn-play").addEventListener("click", () => {
     const mode = getSelectedAnswerMode();
     const timeMode = getSelectedTimeMode();
@@ -190,6 +242,21 @@ function initNav() {
       return;
     }
     hideMenuWarning();
+
+    state.timed = timeMode === "timed";
+    state.timeLimit = seconds * 1000;
+    state.totalRounds = totalRounds;
+
+    startGame(pool, mode);
+  });
+
+  ceitoBtn.addEventListener("click", () => {
+    const mode = getCeitoAnswerMode();
+    const timeMode = getCeitoTimeMode();
+    const seconds = parseInt(document.getElementById("ceito-time-seconds").value, 10);
+    const totalRounds = parseInt(document.getElementById("ceito-vehicle-count").value, 10);
+
+    const pool = VEHICLES.filter((v) => CEITO_VEHICLE_IDS.includes(v.id));
 
     state.timed = timeMode === "timed";
     state.timeLimit = seconds * 1000;
