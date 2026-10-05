@@ -13,38 +13,36 @@ const state = {
   currentImage: null,
   deck: [],
   deckPos: 0,
+  shownImages: new Set(),
   timerId: null,
   answers: [],
 };
 
-// Une "carte" = un véhicule + une de ses photos. Tant qu'il reste assez de cartes distinctes
-// pour couvrir le nombre de manches demandé, aucune photo ne peut être vue deux fois dans le
-// même test : on pioche sans remise dans un paquet mélangé, reconstitué seulement s'il s'épuise.
-function buildDeck(pool) {
-  const cards = [];
-  pool.forEach((vehicle) => {
-    const images = vehicle.images && vehicle.images.length ? vehicle.images : ["img/placeholder.svg"];
-    images.forEach((image) => cards.push({ vehicle, image }));
-  });
-  return shuffle(cards);
+// Tirage par véhicule (et non par photo), pour que chaque véhicule ait la même chance de sortir
+// quel que soit son nombre de photos : on pioche sans remise dans la sélection mélangée, donc aucun
+// véhicule ne revient tant que la sélection n'est pas épuisée, puis une de ses photos au hasard.
+function pickImage(vehicle) {
+  const images = vehicle.images && vehicle.images.length ? vehicle.images : ["img/placeholder.svg"];
+  const unseen = images.filter((image) => !state.shownImages.has(image));
+  const candidates = unseen.length ? unseen : images;
+  return candidates[Math.floor(Math.random() * candidates.length)];
 }
 
 function drawCard() {
   if (state.deckPos >= state.deck.length) {
-    const previousLastCard = state.deck[state.deck.length - 1];
-    state.deck = buildDeck(state.pool);
+    const previousVehicle = state.deck[state.deck.length - 1];
+    state.deck = shuffle(state.pool);
     state.deckPos = 0;
-    // Évite qu'une nouvelle pioche recommence immédiatement par la carte qu'on vient de montrer.
-    if (previousLastCard && state.deck.length > 1) {
-      const sameFirst = (c) => c.vehicle.id === previousLastCard.vehicle.id && c.image === previousLastCard.image;
-      if (sameFirst(state.deck[0])) {
-        [state.deck[0], state.deck[1]] = [state.deck[1], state.deck[0]];
-      }
+    // Évite qu'un nouveau tour recommence par le véhicule qu'on vient de montrer.
+    if (previousVehicle && state.deck.length > 1 && state.deck[0].id === previousVehicle.id) {
+      [state.deck[0], state.deck[1]] = [state.deck[1], state.deck[0]];
     }
   }
-  const card = state.deck[state.deckPos];
+  const vehicle = state.deck[state.deckPos];
   state.deckPos += 1;
-  return card;
+  const image = pickImage(vehicle);
+  state.shownImages.add(image);
+  return { vehicle, image };
 }
 
 function dedupeByName(list) {
@@ -86,8 +84,9 @@ function startGame(pool, mode) {
   state.mode = mode;
   state.score = 0;
   state.round = 0;
-  state.deck = buildDeck(pool);
+  state.deck = shuffle(pool);
   state.deckPos = 0;
+  state.shownImages = new Set();
   state.answers = [];
   updateHud();
   showScreen("game");

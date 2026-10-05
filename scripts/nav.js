@@ -176,7 +176,7 @@ function initNav() {
   playBtn.textContent = "Chargement…";
   ceitoBtn.disabled = true;
   onDataReady(() => {
-    renderCheckboxList(categoryList, CATEGORIES, "category");
+    renderCheckboxList(categoryList, CATEGORIES.filter((c) => VEHICLES.some((v) => v.category === c.id)), "category");
     renderCheckboxList(countryList, COUNTRIES, "country");
     renderVehiclePicker(vehiclePickerList, VEHICLES, CATEGORIES);
     playBtn.disabled = false;
@@ -234,11 +234,13 @@ function initNav() {
 
     const minRequired = mode === "qcm" ? 4 : 1;
     if (pool.length < minRequired) {
-      showMenuWarning(
-        mode === "qcm"
-          ? "Sélection trop restreinte : il faut au moins 4 véhicules pour le mode QCM."
-          : "Sélection trop restreinte : choisissez au moins une catégorie et un pays avec des véhicules."
-      );
+      if (mode === "qcm") {
+        showMenuWarning("Sélection trop restreinte : il faut au moins 4 véhicules pour le mode QCM.");
+      } else if (getSelectedSelectionMode() === "vehicles") {
+        showMenuWarning("Sélection vide : cochez au moins un véhicule.");
+      } else {
+        showMenuWarning("Sélection trop restreinte : choisissez au moins une catégorie et un pays avec des véhicules.");
+      }
       return;
     }
     hideMenuWarning();
