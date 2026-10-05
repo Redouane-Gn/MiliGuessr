@@ -1029,9 +1029,6 @@
       "img/chars/t-72-b3-3.jpg",
       "img/chars/t-72-b3-4.jpg",
       "img/chars/t-72-b3-5.jpg"
-    ],
-    "aliases": [
-      "B3"
     ]
   },
   {
@@ -1190,11 +1187,6 @@
       "img/genie/m3-amphibious-rig-3.jpg",
       "img/genie/m3-amphibious-rig-4.jpg",
       "img/genie/m3-amphibious-rig-5.jpg"
-    ],
-    "aliases": [
-      "M3",
-      "AMPHIBIOUS",
-      "RIG"
     ]
   },
   {
@@ -1753,7 +1745,6 @@
       "img/reco/gaz-tigr-5.jpg"
     ],
     "aliases": [
-      "GAZ",
       "TIGR"
     ]
   },
@@ -1870,8 +1861,7 @@
       "img/vbci/kto-rosomak-5.jpg"
     ],
     "aliases": [
-      "ROSOMAK",
-      "KTO"
+      "ROSOMAK"
     ]
   },
   {
@@ -1957,8 +1947,7 @@
       "img/genie/m9-ace-5.jpg"
     ],
     "aliases": [
-      "M9",
-      "ACE"
+      "M9"
     ]
   },
   {
@@ -2548,9 +2537,6 @@
       "img/genie/brem-k-3.jpg",
       "img/genie/brem-k-4.jpg",
       "img/genie/brem-k-5.jpg"
-    ],
-    "aliases": [
-      "K"
     ]
   },
   {
@@ -2564,9 +2550,6 @@
       "img/chars/t-80-bvm-3.jpg",
       "img/chars/t-80-bvm-4.webp",
       "img/chars/t-80-bvm-5.jpg"
-    ],
-    "aliases": [
-      "BVM"
     ]
   },
   {
@@ -2994,8 +2977,7 @@
       "img/vbtt/m1134-atgm-5.jpg"
     ],
     "aliases": [
-      "M1134",
-      "ATGM"
+      "M1134"
     ]
   },
   {
@@ -3012,9 +2994,7 @@
     ],
     "aliases": [
       "M40A1",
-      "106SR",
-      "M40",
-      "A1"
+      "106SR"
     ]
   },
   {
@@ -3086,7 +3066,6 @@
       "img/reco/iveco-lince-5.webp"
     ],
     "aliases": [
-      "IVECO",
       "LINCE"
     ]
   }
