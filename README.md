@@ -62,13 +62,13 @@ Le nombre de véhicules retenus s'affiche en direct. Le jeu refuse de démarrer 
 
 ### Mode CEITO — bouton « Mode CEITO »
 
-Une liste fixe de **123 véhicules** à connaître, sans avoir à cocher quoi que ce soit. Le panneau **« Personnaliser le Mode CEITO »** ne contient que trois réglages :
+Une liste fixe de **136 véhicules** à connaître, sans avoir à cocher quoi que ce soit. Le panneau **« Personnaliser le Mode CEITO »** ne contient que trois réglages :
 
 | Réglage | Choix |
 |---|---|
 | Mode de réponse | **QCM** ou **Réponse écrite** |
 | Chronomètre | **Sans temps** ou **Avec temps** (5 à 60 s) |
-| Nombre de photos | 10 à 100, ou **123 (toute la liste)** : chaque véhicule de la liste passe une fois |
+| Nombre de photos | 10 à 100, ou **136 (toute la liste)** : chaque véhicule de la liste passe une fois |
 
 Les deux panneaux sont indépendants : régler la partie classique ne change rien au Mode CEITO, et inversement.
 
@@ -138,7 +138,7 @@ Ajoutez une entrée `{ "id": "...", "label": "..." }` dans `scripts/categories.j
 
 ### Liste du Mode CEITO
 
-La liste est définie dans `scripts/nav.js`, dans le tableau `CEITO_VEHICLE_IDS` (un identifiant de `vehicles.json` par ligne). Si vous ajoutez ou retirez un véhicule de cette liste, mettez aussi à jour l'option **« 123 (toute la liste) »** de `index.html` (sélecteur `ceito-vehicle-count`) avec le nouveau total.
+La liste est définie dans `scripts/nav.js`, dans le tableau `CEITO_VEHICLE_IDS` : les identifiants de `vehicles.json`, rangés par catégorie. Un véhicule ajouté avec l'éditeur n'en fait pas partie automatiquement : ajoutez son identifiant à ce tableau. Si le nombre de véhicules de la liste change, mettez aussi à jour l'option **« toute la liste »** de `index.html` (sélecteur `ceito-vehicle-count`) avec le nouveau total.
 
 ---
 

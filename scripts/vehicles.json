@@ -3068,5 +3068,221 @@
     "aliases": [
       "LINCE"
     ]
+  },
+  {
+    "id": "pandur-ii",
+    "name": "PANDUR II",
+    "category": "vbtt",
+    "country": "autres",
+    "images": [
+      "img/vbtt/pandur-ii.jpg",
+      "img/vbtt/pandur-ii-2.jpg",
+      "img/vbtt/pandur-ii-3.jpg",
+      "img/vbtt/pandur-ii-4.jpg",
+      "img/vbtt/pandur-ii-5.jpg"
+    ],
+    "aliases": [
+      "PANDUR 2"
+    ]
+  },
+  {
+    "id": "biber",
+    "name": "BIBER",
+    "category": "genie",
+    "country": "allemagne",
+    "images": [
+      "img/genie/biber.jpg",
+      "img/genie/biber-2.jpg",
+      "img/genie/biber-3.jpg",
+      "img/genie/biber-4.jpg",
+      "img/genie/biber-5.jpg"
+    ]
+  },
+  {
+    "id": "2s4",
+    "name": "2S4",
+    "category": "artillerie",
+    "country": "russie",
+    "images": [
+      "img/artillerie/2s4.jpeg",
+      "img/artillerie/2s4-2.jpeg",
+      "img/artillerie/2s4-3.jpeg",
+      "img/artillerie/2s4-4.jpeg",
+      "img/artillerie/2s4-5.jpeg"
+    ],
+    "aliases": [
+      "TULPAN",
+      "TYULPAN"
+    ]
+  },
+  {
+    "id": "100-mt12",
+    "name": "100 MT12",
+    "category": "anti-char",
+    "country": "russie",
+    "images": [
+      "img/anti-char/100-mt12.jpg",
+      "img/anti-char/100-mt12-2.jpg",
+      "img/anti-char/100-mt12-3.jpg",
+      "img/anti-char/100-mt12-4.jpg",
+      "img/anti-char/100-mt12-5.jpg"
+    ],
+    "aliases": [
+      "2A29",
+      "MT-12",
+      "MT12"
+    ]
+  },
+  {
+    "id": "khrizantema-s",
+    "name": "KHRIZANTEMA-S",
+    "category": "anti-char",
+    "country": "russie",
+    "images": [
+      "img/anti-char/khrizantema-s.jpg",
+      "img/anti-char/khrizantema-s-2.jpeg",
+      "img/anti-char/khrizantema-s-3.jpeg",
+      "img/anti-char/khrizantema-s-4.jpeg",
+      "img/anti-char/khrizantema-s-5.jpg"
+    ],
+    "aliases": [
+      "KRIZANTEMA-S",
+      "KRIZANTEMA"
+    ]
+  },
+  {
+    "id": "leopard-2-a7",
+    "name": "LEOPARD 2 A7",
+    "category": "chars",
+    "country": "allemagne",
+    "images": [
+      "img/chars/leopard-2-a7.jpeg",
+      "img/chars/leopard-2-a7-2.jpeg",
+      "img/chars/leopard-2-a7-3.jpeg",
+      "img/chars/leopard-2-a7-4.jpg",
+      "img/chars/leopard-2-a7-5.webp"
+    ],
+    "aliases": [
+      "LEO 2 A7",
+      "LEOPARD 2A7"
+    ]
+  },
+  {
+    "id": "sabra",
+    "name": "SABRA",
+    "category": "chars",
+    "country": "israel",
+    "images": [
+      "img/chars/sabra.jpg",
+      "img/chars/sabra-2.jpg",
+      "img/chars/sabra-3.webp",
+      "img/chars/sabra-4.jpg"
+    ]
+  },
+  {
+    "id": "mi-35-hind",
+    "name": "MI-35 HIND",
+    "category": "helicopteres",
+    "country": "russie",
+    "images": [
+      "img/helicopteres/mi-35-hind.jpg",
+      "img/helicopteres/mi-35-hind-2.jpeg",
+      "img/helicopteres/mi-35-hind-3.jpeg",
+      "img/helicopteres/mi-35-hind-4.jpeg",
+      "img/helicopteres/mi-35-hind-5.jpeg"
+    ],
+    "aliases": [
+      "MI-35",
+      "MI35"
+    ]
+  },
+  {
+    "id": "mi-26-halo",
+    "name": "MI-26 HALO",
+    "category": "helicopteres",
+    "country": "russie",
+    "images": [
+      "img/helicopteres/mi-26-halo.jpg",
+      "img/helicopteres/mi-26-halo-2.jpg",
+      "img/helicopteres/mi-26-halo-3.jpg",
+      "img/helicopteres/mi-26-halo-4.jpg",
+      "img/helicopteres/mi-26-halo-5.jpg"
+    ],
+    "aliases": [
+      "MI-26",
+      "MI26",
+      "HALO"
+    ]
+  },
+  {
+    "id": "uh-60-blackhawk",
+    "name": "UH-60 BLACKHAWK",
+    "category": "helicopteres",
+    "country": "usa",
+    "images": [
+      "img/helicopteres/uh-60-blackhawk.jpg",
+      "img/helicopteres/uh-60-blackhawk-2.jpg",
+      "img/helicopteres/uh-60-blackhawk-3.jpg",
+      "img/helicopteres/uh-60-blackhawk-4.jpg",
+      "img/helicopteres/uh-60-blackhawk-5.jpg"
+    ],
+    "aliases": [
+      "UH-60",
+      "UH60",
+      "BLACK HAWK",
+      "BLACKHAWK"
+    ]
+  },
+  {
+    "id": "ch-53-sea-stallion",
+    "name": "CH-53 SEA STALLION",
+    "category": "helicopteres",
+    "country": "usa",
+    "images": [
+      "img/helicopteres/ch-53-sea-stallion.jpg",
+      "img/helicopteres/ch-53-sea-stallion-2.jpg",
+      "img/helicopteres/ch-53-sea-stallion-3.jpg",
+      "img/helicopteres/ch-53-sea-stallion-4.jpg",
+      "img/helicopteres/ch-53-sea-stallion-5.jpg"
+    ],
+    "aliases": [
+      "CH-53",
+      "CH53",
+      "SEA STALLION"
+    ]
+  },
+  {
+    "id": "roland",
+    "name": "ROLAND",
+    "category": "anti-aerien",
+    "country": "france",
+    "images": [
+      "img/anti-aerien/roland.jpg",
+      "img/anti-aerien/roland-2.jpg",
+      "img/anti-aerien/roland-3.jpg",
+      "img/anti-aerien/roland-4.jpg",
+      "img/anti-aerien/roland-5.jpg"
+    ],
+    "aliases": [
+      "ROLAND 2"
+    ]
+  },
+  {
+    "id": "sa-18",
+    "name": "SA-18 GROUSE",
+    "category": "anti-aerien",
+    "country": "russie",
+    "images": [
+      "img/anti-aerien/sa-18.jpg",
+      "img/anti-aerien/sa-18-2.jpeg",
+      "img/anti-aerien/sa-18-3.jpeg",
+      "img/anti-aerien/sa-18-4.jpeg"
+    ],
+    "aliases": [
+      "SA-18",
+      "SA18",
+      "GROUSE",
+      "IGLA"
+    ]
   }
 ]

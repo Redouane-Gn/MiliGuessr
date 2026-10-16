@@ -1,34 +1,35 @@
 // Écran d'accueil : cases catégories/pays, mode de réponse, chronomètre, nombre de véhicules, bouton JOUER.
 
-// Mode CEITO : sélection fixe de véhicules et paramètres figés (QCM, sans temps, tous les véhicules
-// de la liste), sans passer par le panneau de personnalisation.
+// Mode CEITO : liste fixe de véhicules, indépendante des filtres de "Personnaliser la partie".
+// Si la taille de la liste change, mettre à jour l'option "toute la liste" de #ceito-vehicle-count (index.html).
 const CEITO_VEHICLE_IDS = [
   // Chars
   "t-55", "t-62", "t-64", "t-72", "t-72-b3", "t-80", "bmpt", "bmpt-2", "t-14", "t-15",
-  "m1-abrams", "m60", "leopard-1", "leopard-2-a5-6", "chieftain", "challenger-2", "ariete",
+  "m1-abrams", "m60", "leopard-1", "leopard-2-a5-6", "leopard-2-a7", "chieftain", "challenger-2", "ariete",
   "ztz-98", "ztz-99", "type-10", "arjun", "k1", "k2", "merkava-3", "merkava-4",
-  "ztd-05", "type-85-2",
+  "sabra", "ztd-05", "type-85-2",
   // Reconnaissance
   "brdm-2", "brm-1", "brm-3", "gaz-tigr", "scimitar", "humvee", "dingo",
   "wiesel-2", "cobra", "eagle-iv", "jackal", "fennek", "vec", "centauro", "ptl-02",
   // VBCI / VBTT
   "bmp-1", "bmp-2", "bmp-3", "mtlb", "bmd-1", "bmd-2", "bmd-3", "bmd-4",
-  "marder", "puma", "bradley", "warrior", "kto-rosomak", "pandur", "pizzaro", "ulan",
+  "marder", "puma", "bradley", "warrior", "kto-rosomak", "pandur", "pandur-ii", "pizzaro", "ulan",
   "btr-60", "btr-70", "btr-80", "btr-80a", "patria-xa180", "fuchs", "bmr-600", "piranha-3", "stryker", "m113",
   "boxer", "wz-551", "type-85", "aav7", "bmo-t",
   // Artillerie
   "l118-lightgun", "122d30", "130m46", "2a65", "fh70", "155m777",
   "2s1", "2s3", "2s5", "2s7", "as90", "pzh2000", "m109",
-  "152d20", "2a36", "plz-07", "2s19", "2s35",
+  "152d20", "2a36", "plz-07", "2s19", "2s35", "2s4",
   // Génie
   "mdk-2", "pzm", "bat-2", "m9-ace", "dachs", "gmz-3", "imr-2",
-  "mtu-72", "tmm-3", "tmm-6", "pts-02", "ribbon-bridge", "m3-amphibious-rig", "pmm-2", "wolverine",
+  "mtu-72", "tmm-3", "tmm-6", "biber", "pts-02", "ribbon-bridge", "m3-amphibious-rig", "pmm-2", "wolverine",
   // Anti-char
-  "spg9", "m1134-atgm", "2a45", "brdm-2-at5",
+  "spg9", "100-mt12", "m1134-atgm", "2a45", "brdm-2-at5", "khrizantema-s",
   // Anti-aérien
-  "zu-23-2", "zsu-23-4", "sa-6-gainful", "sa-8-gecko",
+  "zu-23-2", "zsu-23-4", "sa-6-gainful", "sa-8-gecko", "roland", "sa-18",
   // Hélicoptères
-  "ah-1-cobra", "ah-64-apache", "tigre", "a129-mangusta", "mi-24-hind", "mi-28-havoc", "ka-50", "mi-8-hip", "ch-47-chinook",
+  "ah-1-cobra", "ah-64-apache", "tigre", "a129-mangusta", "mi-24-hind", "mi-28-havoc", "mi-35-hind", "ka-50",
+  "mi-8-hip", "mi-26-halo", "uh-60-blackhawk", "ch-47-chinook", "ch-53-sea-stallion",
 ];
 
 function renderCheckboxList(listEl, items, groupName) {
